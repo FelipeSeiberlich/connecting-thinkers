@@ -1,0 +1,49 @@
+/* colours:
+Black= #000000 
+White= #ffffff
+Lavender= #D6E3F8
+Carrot Orange= #F59A32
+Davy's grey= #545454
+*/
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /*font-size: 16px;*/
+    line-height: 1.7;
+    color: #545454;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.9),
+            rgba(245, 154, 50, 0.8)),
+        url(../images/header-image2.webp);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+}
+
+#logo-box {
+    position: absolute;
+    top: 5vh;
+    left: 4rem;
+    display: inline-block;
+}
+
+
