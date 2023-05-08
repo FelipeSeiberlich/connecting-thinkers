@@ -36,7 +36,7 @@ body {
         url(../images/header-image2.webp);
     background-size: cover;
     background-position: center;
-    clip-path: polygon(0 0, 100% 0, 100% 64%, 0% 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 95%);
 }
 
 .logo-box {
