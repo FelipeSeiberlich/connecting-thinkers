@@ -69,6 +69,12 @@ body {
     width: 8rem;
 }
 
+.logo:hover {
+    animation: moveInRight 5s ease-in;
+    backface-visibility: hidden;
+}
+
+
 .text-box {
     text-align: center;
     position: absolute;
