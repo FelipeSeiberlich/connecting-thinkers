@@ -46,4 +46,27 @@ body {
     display: inline-block;
 }
 
+.logo-text {
+    display: inline-block;
+}
+.logo-text-first {
+    display: block;
+    font-size: 2em;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.logo-text-second {
+    display: block;
+    font-size: 2em;
+    font-family: cursive;
+    text-transform: uppercase;
+    letter-spacing: .4rem;
+}
+
+#logo {
+    height: 7rem;
+    width: 8rem;
+}
+
 
