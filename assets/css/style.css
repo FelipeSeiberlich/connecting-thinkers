@@ -164,7 +164,7 @@ body {
     z-index: -1;
     transition: all .4s;
 }
-.btn-white::after {
+.btn::after {
     background-color: #fff;
 }
 .btn:hover::after {
