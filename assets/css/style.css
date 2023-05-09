@@ -32,7 +32,7 @@ body {
     height: 95vh;
     background-image: linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.9),
-            rgba(245, 154, 50, 0.8)),
+            #f59a32cc),
         url(../images/header-image2.webp);
     background-size: cover;
     background-position: center;
@@ -195,7 +195,7 @@ body {
 
 /* First section - ABOUT */
 .section-about {
-    background-color: #000000;
+    background-color: black;
  
     padding: 13.5rem 0;
     margin-top: -27rem;
@@ -203,7 +203,7 @@ body {
 
 /* Second section - Our History */
 .our-history {
-    height: 85vh;
+    height: 70vh;
     background-color: white;
 }
 
@@ -220,7 +220,7 @@ body {
     text-align: center;
 }
 .u-marging-bottom-8 {
-    margin: 3rem 0 5rem 0;
+    margin: 2rem 25rem;
 }
 
 .about-row {
@@ -232,8 +232,16 @@ body {
     text-align: center;
     margin-right: 6rem;
     padding: 10rem 4rem;
-    float: left;
+    float: left;   
 }
+
+.col-1-of-3-last {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    padding: 10rem 4rem;
+    float: left;   
+}
+
 .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
     float: right;
@@ -251,3 +259,35 @@ body {
     font-size: 1.6rem;
 }
 
+/* Third section - News/Arena */
+
+.news {
+    height: 80vh;
+    background-color: #f59a32cc;
+}
+
+.arena-row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.heading-forth {
+    color: black;
+    background-color: #F59A32;
+    
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.card {
+    background-color: black;
+    height: 35rem;
+}
+
+.video {
+    background-color: orangered;
+    height: 20rem;
+    margin-top: 8rem;
+}
