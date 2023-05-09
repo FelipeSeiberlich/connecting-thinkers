@@ -206,6 +206,15 @@ body {
     background-color: #D6E3F8;
 }
 
+.heading-tertiary {
+    color: black;
+    
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
 .u-center-text {
     text-align: center;
 }
