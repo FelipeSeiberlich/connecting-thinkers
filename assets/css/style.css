@@ -201,9 +201,10 @@ body {
     margin-top: -27rem;
 }
 
+/* Second section - Our History */
 .our-history {
-    height: 60vh;
-    background-color: #D6E3F8;
+    height: 85vh;
+    background-color: white;
 }
 
 .heading-tertiary {
@@ -219,6 +220,34 @@ body {
     text-align: center;
 }
 .u-marging-bottom-8 {
-    margin: 0.5rem 0 5rem 0;
-    
+    margin: 3rem 0 5rem 0;
 }
+
+.about-row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    margin-right: 6rem;
+    padding: 10rem 4rem;
+    float: left;
+}
+.col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+    float: right;
+    text-align: center;
+}
+.heading2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-bottom: 2rem;
+}
+.p-style {
+    padding-top: 2rem;
+    font-size: 1.6rem;
+}
+
