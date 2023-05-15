@@ -231,14 +231,13 @@ body {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
     margin-right: 6rem;
-    padding: 10rem 4rem;
-    float: left;   
+    padding: 10rem .7rem;
+    float: left; 
 }
-
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
-    padding: 10rem 4rem;
+    padding: 10rem .7rem;
     float: left;   
 }
 
@@ -285,6 +284,7 @@ body {
     -moz-perspective: 150rem;
     background-color: black;
     height: 35rem;
+    border: .3rem solid #D6E3F8;
     transition: all 8s;
 }
 
@@ -293,7 +293,6 @@ body {
 }
 
 .video {
-    background-color: orangered;
     height: 20rem;
     margin-top: 8rem;
 }
