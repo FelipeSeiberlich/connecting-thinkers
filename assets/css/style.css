@@ -178,6 +178,17 @@ body {
     opacity: 0;
 }
 
+
+
+/* First section - ABOUT */
+.section-about {
+    background-image: url(../images/column.png);
+    background-size: cover;
+    background-position: center;
+    padding: 13.7rem 0;
+    margin-top: -27rem;
+}
+    
 .heading-secondary {
     color: white;
     
@@ -190,17 +201,8 @@ body {
     position: absolute;
     bottom: 10rem;
     right: 10rem;
+}
   
-}
-
-/* First section - ABOUT */
-.section-about {
-    background-color: black;
- 
-    padding: 13.5rem 0;
-    margin-top: -27rem;
-}
-
 /* Second section - Our History */
 .our-history {
     height: 70vh;
@@ -302,6 +304,6 @@ body {
 height: 30vh;
 }
 
-#qiz-button {
+#quiz-button {
     
 }
