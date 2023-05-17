@@ -311,7 +311,7 @@ body {
     -moz-perspective: 150rem;
     background-color: black;
     height: 35rem;
-    border: .3rem solid #D6E3F8;
+    border: .3rem solid black;
     transition: all 8s;
 }
 
@@ -326,13 +326,14 @@ body {
 
 /* forth section - Quiz */
 .quiz {
-    height: 10vh;
+    height: 5vh;
     position: relative;
     background-color: #000;
+    
 }
 
 .start-button {
-    display: inline-block;
+    display: block;
     
 }
     
@@ -342,10 +343,28 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -80%);
-
-    
-
 }
+
+/* Footer */
+
+.footer {
+    height: 5vh;
+    background-color: #000;
+}
+
+.copyright {
+    display: block;
+}
+
+.right {
+    float: right;
+    color: white;
+    margin-right: 3rem;
+}
+
+
+
+
 
 /*
 border: 5px solid #D6E3F8 ;
