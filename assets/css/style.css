@@ -195,7 +195,10 @@ body {
 
 /* First section - ABOUT */
 .section-about {
-    background-image: url(../images/column.png);
+    background-image: /*linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.1),
+            #D6E3F8),*/
+        url(../images/cogs.png);
     background-size: cover;
     background-position: center;
     padding: 13.7rem 0;
@@ -283,9 +286,9 @@ body {
 .news {
     height: 75vh;
     background-image: linear-gradient(to right bottom,
-            rgba(254, 254, 254, 0.3),
-            #f59a32cc),
-        url(../images/column.png);
+            rgba(254, 254, 254, 0.1),
+            rgba(214, 227, 248, .2)),
+        url(../images/battle.png);
     background-size: cover;
     background-position: center;
 }
@@ -309,9 +312,9 @@ body {
 .card {
     perspective: 150rem;
     -moz-perspective: 150rem;
-    background-color: black;
+    background-color: #D6E3F8;
     height: 35rem;
-    border: .3rem solid black;
+    border: .3rem solid #D6E3F8;
     transition: all 8s;
 }
 
