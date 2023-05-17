@@ -193,8 +193,6 @@ body {
     opacity: 0;
 }
 
-
-
 /* First section - ABOUT */
 .section-about {
     background-image: url(../images/column.png);
@@ -331,12 +329,10 @@ body {
     height: 5vh;
     position: relative;
     background-color: #000;
-    
 }
 
 .start-button {
-    display: block;
-    
+    display: block; 
 }
     
 .quiz-button {
@@ -369,11 +365,6 @@ body {
 
 
 /*
-border: 5px solid #D6E3F8 ;
-    
-    padding: 1rem 50rem;
-    margin: auto;
-    width: 100%;
-    background-color: orange;
+
     
 */
