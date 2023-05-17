@@ -284,7 +284,12 @@ body {
 
 .news {
     height: 75vh;
-    background-color: white;
+    background-image: linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.3),
+            #f59a32cc),
+        url(../images/column.png);
+    background-size: cover;
+    background-position: center;
 }
 
 .arena-row {
