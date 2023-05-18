@@ -206,7 +206,7 @@ body {
 }
 
 .heading-secondary {
-    color: white;
+    color: black;
 
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -215,10 +215,20 @@ body {
 
 
     position: absolute;
-    bottom: 10rem;
-    right: 10rem;
+    bottom:10rem;
+    right: 9rem;
+}
+.secondary {
+    text-decoration: none;
+    color: #000;
 }
 
+.secondary:hover {
+    background: url(../images/holographic.gif);
+    background-size: 43rem 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
 /* Second section - Our History */
 .our-history {
     height: 70vh;
@@ -304,7 +314,7 @@ body {
 .heading-forth {
     color: black;
     
-    background: url(../images/fire.gif);
+    background: url(../images/holographic.gif);
     background-size: 43rem 3rem;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
@@ -384,9 +394,15 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-45%, -150%);
-
 }
 
+.top {
+    position: absolute;
+    bottom: 0;
+    left: 2rem;
+    padding: .6rem 1rem;
+    
+}
 /* Footer */
 
 .footer {
