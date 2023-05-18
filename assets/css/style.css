@@ -329,6 +329,7 @@ body {
     transition: all 3s ease;
     background-image: url(../images/liza.png);
     object-fit: contain;
+    position: relative;
 }
 
 .card:hover {
@@ -339,6 +340,29 @@ body {
     transform: rotateY(180deg);
 }
 
+.title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #D6E3F8;
+    
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem;
+}
+
+.title-2 {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #D6E3F8;
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 1rem;
+}
 .video {
     height: 20rem;
     margin-top: 8rem;
