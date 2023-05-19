@@ -376,7 +376,7 @@ body {
 }
 
 /* forth section - Quiz */
-.quiz {
+#quiz {
     height: 5vh;
     position: relative;
     background-color: #000;
