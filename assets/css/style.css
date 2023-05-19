@@ -215,7 +215,6 @@ body {
     font-weight: 700;
     letter-spacing: 2px;
 
-
     position: absolute;
     bottom:10rem;
     right: 9rem;
@@ -271,31 +270,26 @@ body {
 }
 
 .clock {
-    
     align-items: center;
-    
+    font-size: 2rem; 
 }
 
 .day {
     margin: 1rem 7rem;
     color: red;
-    font-size: 2rem;
 }
-
 
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
     padding: 5rem .7rem;
     float: left;
-
 }
 
 .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
     float: right;
     text-align: center;
-
 }
 
 .heading2 {
@@ -397,12 +391,10 @@ body {
     height: 5vh;
     position: relative;
     background-color: #000;
-
 }
 
 .start-button {
     display: block;
-
 }
 
 .quiz-button {
@@ -418,7 +410,6 @@ body {
     bottom: 0;
     left: 2rem;
     padding: .6rem 1rem;
-    
 }
 /* Footer */
 
@@ -436,12 +427,3 @@ body {
     color: white;
     margin-right: 3rem;
 }
-
-
-
-
-
-/*
-
-    
-*/
