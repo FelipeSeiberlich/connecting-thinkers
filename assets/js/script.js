@@ -17,5 +17,13 @@ function printDate(){
 }
 printDate()
 
+function printDay(){
+    var date = new Date();
+    var today = date.getDay();
+    var day = noofday[today];
+    todayday.innerHTML = day;
+}
+printDay()
+
 //Quiz game
 
