@@ -268,8 +268,20 @@ body {
     margin-right: 6rem;
     padding: 5rem .7rem;
     float: left;
-
 }
+
+.clock {
+    display: flex;
+    align-items: center;
+    margin-left: 7rem;
+}
+
+.day {
+    margin: 0 7rem;
+    color: red;
+    font-size: 2rem;
+}
+
 
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
