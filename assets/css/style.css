@@ -16,6 +16,7 @@ Davy's grey= #545454
 
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -28,6 +29,12 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    height: 100%;
+    scroll-behavior: smooth;    
+}
+
 .header {
     height: 95vh;
     background-image: linear-gradient(to right bottom,
@@ -37,6 +44,7 @@ body {
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 64.5%, 0% 100%);
+    
 }
 
 .logo-box {
@@ -224,13 +232,16 @@ body {
 }
 
 .secondary:hover {
+    color: #F59A32;
+    /*
     background: url(../images/holographic.gif);
     background-size: 43rem 3rem;
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    */
 }
 /* Second section - Our History */
-.our-history {
+#our-history {
     height: 70vh;
     background-color: white;
 }
@@ -296,7 +307,7 @@ body {
 
 /* Third section - News/Arena */
 
-.news {
+#news {
     height: 80vh;
     background-image: linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.1),
