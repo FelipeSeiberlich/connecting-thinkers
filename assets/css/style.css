@@ -271,13 +271,13 @@ body {
 }
 
 .clock {
-    display: flex;
+    
     align-items: center;
-    margin-left: 7rem;
+    
 }
 
 .day {
-    margin: 0 7rem;
+    margin: 1rem 7rem;
     color: red;
     font-size: 2rem;
 }
