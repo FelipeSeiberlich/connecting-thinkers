@@ -469,6 +469,7 @@ body {
     --hue: var(var(--hue-neutral));
     margin: 15rem 2rem;
     width: 50rem;
+    max-width: 80%;
     height: 20rem;
     background: var(--hue-neutral);
     border-radius: .5rem;
@@ -502,26 +503,41 @@ body {
     align-items: center;
 }
 
-.next-btn {
-    font-weight: bold;
-    padding: 1rem 2rem;
+.controls {
+    
+    display: flex;
+    
 }
 
-/*.hide {
+.next-btn {
+    font-weight: bold;
+    padding: 1rem 5rem;
+    margin-left: 2rem;
+}
+
+.start-btn {
+    font-weight: bold;
+    padding: 1rem 2rem;
+    
+}
+
+.hide {
     display: none;
-}*/
+}
 
 .btn-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
     gap: 1rem;
-    margin: 1.5rem 0;
+    margin: 3rem 0;
 }
 
 .btn-quiz {
     border: 1px solid #545454 ;
     border-radius: 5px;
-    padding: .5rem 1rem;
+    padding: .6rem 1rem;
+    background: url(../images/holographic.gif);
+    
 }
 
 .btn-quiz:hover {
