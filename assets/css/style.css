@@ -185,10 +185,6 @@ body {
     background-color: #fff;
 }
 
-/*.btn::after {
-    
-}*/
-
 .btn:hover::after {
     transform: scalex(1.4) scaleY(1.6);
     opacity: 0;
