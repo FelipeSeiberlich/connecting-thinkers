@@ -404,17 +404,25 @@ body {
 
 /* forth section - Quiz */
 
-#quiz {
+#to-top {
     height: 5vh;
     position: relative;
     background-color: #000;
 }
 
 .top {
+    font-weight: bold;
     position: absolute;
     bottom: 0;
     left: 2rem;
     padding: .6rem 1rem;
+    background: url(../images/holographic.gif);
+    border-radius: 5px;
+}
+
+.top:hover {
+    border-color: white;
+    
 }
 /* Footer */
 
