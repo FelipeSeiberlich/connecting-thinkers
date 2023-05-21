@@ -19,6 +19,12 @@ html {
     scroll-behavior: smooth;
 }
 
+:root {
+    --hue-neutral: hsl(0, 0%, 100%);
+    --hue-correct: rgba(159, 223, 159, .3);
+    --hue-wrong: rgba(255, 0, 0, .5);
+}
+
 body {
     font-family: "Lato", sans-serif;
     font-weight: 400;
@@ -27,7 +33,8 @@ body {
     color: #545454;
     padding: 1.5rem;
     box-sizing: border-box;
-    
+    width: 100vw;
+    height: 95vh;
 }
 
 /*  Header */
@@ -459,16 +466,38 @@ body {
 }
 
 .quiz-card {
+    --hue: var(var(--hue-neutral));
     margin: 15rem 2rem;
     width: 50rem;
     height: 20rem;
-    background: white;
+    background: var(--hue-neutral);
     border-radius: .5rem;
     padding: 1rem;
     box-shadow: 0 0 1rem .2rem; 
-    /*position: absolute;  
-    top: 15vh;
-    left: 30rem; */
+    justify-content: center;
+    align-items: center;
+}
+
+.correct {
+    margin: 15rem 2rem;
+    width: 50rem;
+    height: 20rem;
+    background: var(--hue-correct);
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem .2rem; 
+    justify-content: center;
+    align-items: center;
+}
+ 
+.wrong {
+    margin: 15rem 2rem;
+    width: 50rem;
+    height: 20rem;
+    background: var(--hue-wrong);
+    border-radius: .5rem;
+    padding: 1rem;
+    box-shadow: 0 0 1rem .2rem; 
     justify-content: center;
     align-items: center;
 }
