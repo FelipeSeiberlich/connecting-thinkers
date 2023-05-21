@@ -436,6 +436,7 @@ body {
         url(../images/header-image2.webp);
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .no-link-deco {
@@ -445,12 +446,23 @@ body {
 
 .quiz-card {
     margin: 3rem 2rem;
-    width: 45rem;
-    height: 15rem;
-    background-color: white;
+    width: 50rem;
+    height: 20rem;
+    background: white;
     border-radius: .5rem;
     padding: 1rem;
-    box-shadow: 0 0 1rem .2rem;    
+    box-shadow: 0 0 1rem .2rem; 
+    position: absolute;  
+    top: 30rem; 
+}
+
+.next-btn {
+    font-weight: bold;
+    padding: 1rem 2rem;
+}
+
+.hide {
+    display: none;
 }
 
 .btn-grid {
@@ -458,4 +470,14 @@ body {
     grid-template-columns: repeat(2, auto);
     gap: 1rem;
     margin: 1.5rem 0;
+}
+
+.btn-quiz {
+    border: 1px solid #545454 ;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+}
+
+.btn-quiz:hover {
+    border-color: white;
 }
