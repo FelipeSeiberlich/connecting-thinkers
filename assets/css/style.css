@@ -388,7 +388,7 @@ body {
     object-fit: contain;
 }
 
-.start-button {
+.go-quiz-btn {
     display: inline-block;
     margin-top: 3rem;
 }
