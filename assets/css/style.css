@@ -422,7 +422,6 @@ body {
 
 .top:hover {
     border-color: white;
-    
 }
 /* Footer */
 
@@ -451,7 +450,7 @@ body {
         url(../images/header-image2.webp);
     background-size: cover;
     background-position: center;
-    position: relative;
+    display: flex;
 }
 
 .no-link-deco {
@@ -460,15 +459,18 @@ body {
 }
 
 .quiz-card {
-    margin: 3rem 2rem;
+    margin: 15rem 2rem;
     width: 50rem;
     height: 20rem;
     background: white;
     border-radius: .5rem;
     padding: 1rem;
     box-shadow: 0 0 1rem .2rem; 
-    position: absolute;  
-    top: 30rem; 
+    /*position: absolute;  
+    top: 15vh;
+    left: 30rem; */
+    justify-content: center;
+    align-items: center;
 }
 
 .next-btn {
@@ -476,9 +478,9 @@ body {
     padding: 1rem 2rem;
 }
 
-.hide {
+/*.hide {
     display: none;
-}
+}*/
 
 .btn-grid {
     display: grid;
