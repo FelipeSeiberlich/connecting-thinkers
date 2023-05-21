@@ -182,11 +182,12 @@ body {
     left: 0;
     z-index: -1;
     transition: all .4s;
-}
-
-.btn::after {
     background-color: #fff;
 }
+
+/*.btn::after {
+    
+}*/
 
 .btn:hover::after {
     transform: scalex(1.4) scaleY(1.6);
