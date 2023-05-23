@@ -26,15 +26,26 @@ html {
 }
 
 body {
+    --hue: var(var(--hue-neutral));
     font-family: "Lato", sans-serif;
     font-weight: 400;
-    /*font-size: 16px;*/
     line-height: 1.7;
+
     color: #545454;
+    background-color: hsl(var(--hue), 100%, 20%);
+
     padding: 1.5rem;
     box-sizing: border-box;
     width: 100vw;
     height: 95vh;
+}
+
+body.correct {   
+    background: var(--hue-correct);
+}
+ 
+body.wrong {
+    background: var(--hue-wrong);
 }
 
 /*  Header */
@@ -466,36 +477,11 @@ body {
 }
 
 .quiz-card {
-    --hue: var(var(--hue-neutral));
     margin: 20rem 43rem;
     width: 50rem;
     max-width: 80%;
     height: 20rem;
-    background: var(--hue);
-    border-radius: .5rem;
-    padding: 1rem;
-    box-shadow: 0 0 1rem .2rem; 
-    justify-content: center;
-    align-items: center;
-}
-
-.correct {
-    margin: 15rem 2rem;
-    width: 50rem;
-    height: 20rem;
-    background: var(--hue-correct);
-    border-radius: .5rem;
-    padding: 1rem;
-    box-shadow: 0 0 1rem .2rem; 
-    justify-content: center;
-    align-items: center;
-}
- 
-.wrong {
-    margin: 15rem 2rem;
-    width: 50rem;
-    height: 20rem;
-    background: var(--hue-wrong);
+    background-color: var(--hue);
     border-radius: .5rem;
     padding: 1rem;
     box-shadow: 0 0 1rem .2rem; 
@@ -531,9 +517,12 @@ body {
     border: 1px solid #545454 ;
     border-radius: 5px;
     padding: .6rem 1rem;
-    background: url(../images/holographic.gif);
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
 }
 
 .btn-quiz:hover {
     border-color: white;
 }
+
+

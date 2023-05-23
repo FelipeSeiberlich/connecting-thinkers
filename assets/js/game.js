@@ -8,6 +8,10 @@ const answerButtonsElement = document.getElementById
 
 let shuffledQuestions, currentQuestionIndex
 startButton.addEventListener('click', startQuiz)
+nextButton.addEventListener('click', () => {
+    currentQuestionIndex++
+    setNextCardQuestion()
+})
 
 function startQuiz() {
     startButton.classList.add('hide')
@@ -51,14 +55,20 @@ function selectAnswer() {
     Array.from(answer,answerButtonsElement.children).forEach(button => {
         setStatusClass(button, button.dataset.correct)
     })
-    nextButton.classList.remove('hide')
+    if (shuffledQuestions.length > currentQuestionIndex + 1) {
+        nextButton.classList.remove('hide')
+
+    }  else {
+        startButton.innerText = 'Restart'
+        startButton.clasList.remove('hide')
+    }
 }
 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
-    }   else {
+    }  else {
         element.classList.add('wrong')
     }
 }
@@ -69,6 +79,34 @@ function clearStatusClass(element) {
 } 
 
 const questions = [
+    {
+        question: 'Hello my friend',
+        answer: [
+            { text: 'miaow', correct: true },
+            { text: 'moremiaow', correct: false }
+        ]
+    },
+    {
+        question: 'Hello my friend',
+        answer: [
+            { text: 'miaow', correct: true },
+            { text: 'moremiaow', correct: false }
+        ]
+    },
+    {
+        question: 'Hello my friend',
+        answer: [
+            { text: 'miaow', correct: true },
+            { text: 'moremiaow', correct: false }
+        ]
+    },
+    {
+        question: 'Hello my friend',
+        answer: [
+            { text: 'miaow', correct: true },
+            { text: 'moremiaow', correct: false }
+        ]
+    },
     {
         question: 'Hello my friend',
         answer: [
