@@ -34,16 +34,16 @@ body {
     color: #545454;
     background-color: hsl(var(--hue), 100%, 20%);
 
-    padding: 1.5rem 3rem 1.5rem 1.5rem ;
+    padding: 1.5rem 3rem 1.5rem 1.5rem;
     box-sizing: border-box;
     width: 100vw;
     height: 95vh;
 }
 
-body.correct {   
+body.correct {
     background: var(--hue-correct);
 }
- 
+
 body.wrong {
     background: var(--hue-wrong);
 }
@@ -70,6 +70,7 @@ body.wrong {
 
 .logo-text {
     display: inline-block;
+    color: #000;
 }
 
 .logo-text-first {
@@ -233,9 +234,10 @@ body.wrong {
     letter-spacing: 2px;
 
     position: absolute;
-    bottom:10rem;
+    bottom: 10rem;
     right: 9rem;
 }
+
 .secondary {
     text-decoration: none;
     color: #000;
@@ -289,7 +291,7 @@ body.wrong {
 
 .clock {
     align-items: center;
-    font-size: 2rem; 
+    font-size: 2rem;
 }
 
 .day {
@@ -333,7 +335,7 @@ body.wrong {
         url(../images/battle.png);
     background-size: cover;
     background-position: center;
-    
+
 }
 
 .arena-row {
@@ -343,7 +345,7 @@ body.wrong {
 
 .heading-forth {
     color: black;
-    
+
     background: url(../images/holographic.gif);
     background-size: 43rem 3rem;
     -webkit-text-fill-color: transparent;
@@ -354,6 +356,7 @@ body.wrong {
     font-weight: 700;
     letter-spacing: 2px;
     padding: 1rem;
+    overflow: hidden;
 }
 
 .card {
@@ -441,6 +444,7 @@ body.wrong {
 .top:hover {
     border-color: white;
 }
+
 /* Footer */
 
 .footer {
@@ -461,15 +465,18 @@ body.wrong {
 /* Quiz page*/
 
 .header-quiz {
-    height: 95vh;
+
     background-image: linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.9),
             #f59a32cc),
         url(../images/header-image2.webp);
     background-size: cover;
-    background-position: center;
     display: flex;
-    scroll-behavior: ;
+    width: 98vw;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .no-link-deco {
@@ -478,43 +485,51 @@ body.wrong {
 }
 
 .quiz-card {
-    margin: 20rem 43rem;
+
     width: 50rem;
     max-width: 80%;
-    height: 20rem;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 2px;
     background-color: var(--hue);
-    border-radius: .5rem;
-    padding: 1rem;
-    box-shadow: 0 0 1rem .2rem; 
-    justify-content: center;
-    align-items: center;
+}
+
+#question {
+    font-size: 3rem;
+    color: #000;;
 }
 
 .controls {
     display: flex;
+    margin-top: 1rem;
     justify-content: center;
     align-items: center;
 }
 
-.btn-quiz, .correct {
+.btn-quiz,
+.correct {
     --hue: var(--hue-correct);
-  }
-  
-  .btn-quiz, .wrong {
+}
+
+.btn-quiz,
+.wrong {
     --hue: var(--hue-wrong);
-  }
+}
 
 .start-btn {
-    font-size: 10rem;
+    font-size: 5rem;
     font-weight: bold;
     margin: 2.5rem;
     padding: 1rem 5rem;
+    background: url(../images/holographic.gif);
 }
 
 .next-btn {
     font-size: 4rem;
     font-weight: bold;
     padding: 1rem 3rem;
+    background: url(../images/holographic.gif);
 }
 
 .hide {
@@ -529,15 +544,15 @@ body.wrong {
 }
 
 .btn-quiz {
-    border: 1px solid #545454 ;
+    border: 1px solid #545454;
     border-radius: 5px;
-    padding: .6rem 1rem;
+    padding: 1rem 1rem;
     --hue: var(--hue-neutral);
     background-color: hsl(var(--hue), 100%, 50%);
+    background: url(../images/holographic.gif);
 }
 
 .btn-quiz:hover {
     border-color: white;
+    box-shadow: 0 0 1px 1px;
 }
-
-
