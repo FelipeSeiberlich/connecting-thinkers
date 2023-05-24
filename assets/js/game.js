@@ -48,21 +48,21 @@ function resetState() {
     }
 }
 
-function selectAnswer() {
-    const selectButton = e.target
-    const correct = selectButton.dataset.correct
+function selectAnswer(e) {
+    console.log("Inside selectAnswer");
+    const selectedButton = e.target
+    const correct = selectedButton.dataset.correct
     setStatusClass(document.body, correct)
-    Array.from(answer,answerButtonsElement.children).forEach(button => {
-        setStatusClass(button, button.dataset.correct)
+    Array.from(answerButtonsElement.children).forEach(button => {
+      setStatusClass(button, button.dataset.correct)
     })
     if (shuffledQuestions.length > currentQuestionIndex + 1) {
-        nextButton.classList.remove('hide')
-
-    }  else {
-        startButton.innerText = 'Restart'
-        startButton.clasList.remove('hide')
+      nextButton.classList.remove('hide')
+    } else {
+      startButton.innerText = 'Restart'
+      startButton.classList.remove('hide')
     }
-}
+  }
 
 function setStatusClass(element, correct) {
     clearStatusClass(element)
@@ -80,35 +80,7 @@ function clearStatusClass(element) {
 
 const questions = [
     {
-        question: 'Hello my friend',
-        answer: [
-            { text: 'miaow', correct: true },
-            { text: 'moremiaow', correct: false }
-        ]
-    },
-    {
-        question: 'Hello my friend',
-        answer: [
-            { text: 'miaow', correct: true },
-            { text: 'moremiaow', correct: false }
-        ]
-    },
-    {
-        question: 'Hello my friend',
-        answer: [
-            { text: 'miaow', correct: true },
-            { text: 'moremiaow', correct: false }
-        ]
-    },
-    {
-        question: 'Hello my friend',
-        answer: [
-            { text: 'miaow', correct: true },
-            { text: 'moremiaow', correct: false }
-        ]
-    },
-    {
-        question: 'Hello my friend',
+        question: 'I am testing something !',
         answer: [
             { text: 'miaow', correct: true },
             { text: 'moremiaow', correct: false }
