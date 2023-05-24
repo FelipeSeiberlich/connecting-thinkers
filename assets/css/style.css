@@ -227,6 +227,8 @@ body.wrong {
 
 .heading-secondary {
     color: black;
+    text-shadow: 2px 2px #D6E3F8;
+    border-radius: 10px;
 
     font-size: 3.5rem;
     text-transform: uppercase;
@@ -312,6 +314,38 @@ body.wrong {
     text-align: center;
 }
 
+.textarea-container {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(white, white), radial-gradient(circle at top right, #006699, #9900cc);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    border: solid 5px transparent;
+    border-radius: 30px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.textarea {
+    width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 200px;
+    max-height: 200px;
+    padding: 15px;
+    resize: none;
+    display: inline-block;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
 .heading2 {
     font-size: 2rem;
     font-weight: bold;
@@ -335,7 +369,6 @@ body.wrong {
         url(../images/battle.png);
     background-size: cover;
     background-position: center;
-
 }
 
 .arena-row {
@@ -345,7 +378,6 @@ body.wrong {
 
 .heading-forth {
     color: black;
-
     background: url(../images/holographic.gif);
     background-size: 43rem 3rem;
     -webkit-text-fill-color: transparent;
@@ -361,33 +393,20 @@ body.wrong {
 
 .card {
     perspective: 150rem;
-    -moz-perspective: 150rem;
     height: 30rem;
     width: 30rem;
     border: .3rem solid #D6E3F8;
-    transition: all 3s ease;
     background-image: url(../images/paula.png);
     object-fit: contain;
 }
 
 .card-2 {
-    perspective: 150rem;
-    -moz-perspective: 150rem;
     height: 30rem;
     width: 30rem;
     border: .3rem solid #D6E3F8;
-    transition: all 3s ease;
     background-image: url(../images/ben.png);
     object-fit: contain;
     position: relative;
-}
-
-.card:hover {
-    transform: rotateY(180deg);
-}
-
-.card-2:hover {
-    transform: rotateY(180deg);
 }
 
 .title {
