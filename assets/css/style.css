@@ -34,7 +34,7 @@ body {
     color: #545454;
     background-color: hsl(var(--hue), 100%, 20%);
 
-    padding: 1.5rem;
+    padding: 1.5rem 3rem 1.5rem 1.5rem ;
     box-sizing: border-box;
     width: 100vw;
     height: 95vh;
@@ -469,6 +469,7 @@ body.wrong {
     background-size: cover;
     background-position: center;
     display: flex;
+    scroll-behavior: ;
 }
 
 .no-link-deco {
@@ -495,11 +496,25 @@ body.wrong {
     align-items: center;
 }
 
-.start-btn, .next-btn {
+.btn-quiz, .correct {
+    --hue: var(--hue-correct);
+  }
+  
+  .btn-quiz, .wrong {
+    --hue: var(--hue-wrong);
+  }
+
+.start-btn {
     font-size: 10rem;
     font-weight: bold;
     margin: 2.5rem;
     padding: 1rem 5rem;
+}
+
+.next-btn {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
 }
 
 .hide {
