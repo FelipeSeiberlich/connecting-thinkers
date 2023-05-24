@@ -1,28 +1,18 @@
-/* colours:
-Black= #000000 
-White= #ffffff
-Lavender= #D6E3F8
-Carrot Orange= #F59A32
-Davy's grey= #545454
-*/
-
-*,
-*::after,
-*::before {
+*, *::after, *::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
-
-html {
-    font-size: 62.5%;
-    scroll-behavior: smooth;
 }
 
 :root {
     --hue-neutral: hsl(0, 0%, 100%);
     --hue-correct: rgba(159, 223, 159, .3);
     --hue-wrong: rgba(255, 0, 0, .5);
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -59,6 +49,7 @@ body.wrong {
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 64.5%, 0% 100%);
+    position: relative;
 }
 
 .logo-box {
@@ -247,12 +238,6 @@ body.wrong {
 
 .secondary:hover {
     color: #F59A32;
-    /*
-    background: url(../images/holographic.gif);
-    background-size: 43rem 3rem;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    */
 }
 
 /* Second section - History */
@@ -367,6 +352,7 @@ body.wrong {
             rgba(254, 254, 254, 0.1),
             rgba(214, 227, 248, .2)),
         url(../images/battle.png);
+        background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -442,7 +428,14 @@ body.wrong {
     transform: translate(-45%, -150%);*/
 }
 
-/* forth section - Quiz */
+/* Footer */
+
+.footer {
+    height: 10vh;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
 
 #to-top {
     height: 5vh;
@@ -464,12 +457,6 @@ body.wrong {
     border-color: white;
 }
 
-/* Footer */
-
-.footer {
-    height: 5vh;
-    background-color: #000;
-}
 
 .copyright {
     display: block;
@@ -575,4 +562,9 @@ body.wrong {
 .btn-quiz:hover {
     border-color: white;
     box-shadow: 0 0 1px 1px;
+}
+
+/* For small screens sizes from 730px wide and down */
+@media screen and (max-width: 730px) {
+    
 }
