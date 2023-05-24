@@ -544,6 +544,7 @@ body.wrong {
 }
 
 .btn-quiz {
+    font-weight: bold;
     border: 1px solid #545454;
     border-radius: 5px;
     padding: 1rem 1rem;
