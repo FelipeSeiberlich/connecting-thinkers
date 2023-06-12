@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: inherit;
 }
-
+ 
 :root {
     --hue-neutral: hsl(0, 0%, 100%);
     --hue-correct: rgba(159, 223, 159, .3);
@@ -47,6 +47,7 @@ body.wrong {
             #f59a32cc),
         url(../images/header-image2.webp);
     background-size: cover;
+    background-repeat: no-repeat;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 64.5%, 0% 100%);
     position: relative;
@@ -203,6 +204,7 @@ body.wrong {
     opacity: 0;
 }
 
+/* Main*/
 /* First section - ABOUT */
 .section-about {
     background-image:
@@ -242,8 +244,7 @@ body.wrong {
 
 /* Second section - History */
 #history {
-    height: 70vh;
-    background-color: white;
+    display: flex;
 }
 
 .heading-tertiary {
@@ -346,7 +347,7 @@ body.wrong {
 /* Third section - News/Arena */
 
 #news {
-    height: 80vh;
+    display: inline-block;
     background-image: linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.1),
             rgba(214, 227, 248, .2)),
@@ -572,6 +573,7 @@ body.wrong {
 /* For small screens sizes from 730px wide and down */
 /* Index page */
 @media screen and (max-width: 730px) {
+    
     .logo {
         height: 5rem;
         width: 6rem;
@@ -601,5 +603,20 @@ body.wrong {
        
     }
     
+    /* First section - ABOUT */
+.section-about {
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(254, 254, 254, .2),
+            #D6E3F8),
+        url(../images/cogs.png);
+    
+}
+
+.heading-secondary {
+    
+    bottom: 8rem;
+    right: 6rem;
+}
      
 }
