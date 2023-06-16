@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-}
+} 
  
 :root {
     --hue-neutral: hsl(0, 0%, 100%);
@@ -51,6 +51,7 @@ body.wrong {
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 64.5%, 0% 100%);
     position: relative;
+    border-radius: 5%;
 }
 
 .logo-box {
@@ -216,6 +217,7 @@ body.wrong {
     background-position: center;
     padding: 13.7rem 0;
     margin-top: -27rem;
+    border-radius: 8%;
 }
 
 .heading-secondary {
@@ -346,6 +348,14 @@ body.wrong {
 
 /* Third section - News/Arena */
 
+.cogs {
+    background: url(../images/holographic.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5%;
+    
+}
+
 #news {
     display: inline-block;
     background-image: linear-gradient(to right bottom,
@@ -353,15 +363,21 @@ body.wrong {
             rgba(214, 227, 248, .2)),
         url(../images/battle.png);
         background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 150rem 100rem;
     background-position: center;
-    margin-left: 5rem;
+    margin: 2% 10%;
+    border-radius: 5%;
+    
+    
 }
 
 .arena-row {
     
-    display: inline;
+    overflow: hidden;
     margin: 0 auto;
+    clear: both;
+    
+    
 }
 
 .heading-forth {
@@ -395,6 +411,7 @@ body.wrong {
     border: .3rem solid #D6E3F8;
     background-image: url(../images/ben.png);
     object-fit: contain;
+    display: inline-block;
     position: relative;
 }
 
