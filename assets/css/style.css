@@ -183,7 +183,7 @@ body.wrong {
 
 /* First section - ABOUT */
 .section-about {
-    
+    box-shadow: 0 4px 10px -1px gray;
     background-image:
         /*linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.1),
@@ -213,3 +213,65 @@ body.wrong {
 .secondary:hover {
     color: #F59A32;
 }
+
+/* Second section - History */
+#history {
+    display: flex;
+    box-shadow: 1px 0 10px 1px;
+}
+.heading-tertiary {
+    color: black;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.u-center-text {
+    text-align: center;
+}
+.u-marging-bottom-8 {
+    margin: 2rem 25rem;
+}
+.about-row {
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    margin-right: 6rem;
+    padding: 5rem .7rem;
+    float: left;
+}
+.clock {
+    align-items: center;
+    font-size: 2rem;
+}
+.day {
+    margin: 1rem 7rem;
+    color: red;
+}
+.col-1-of-3-last {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    padding: 6rem .7rem;
+    float: left;
+}
+.col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
+    float: right;
+    text-align: center;
+}
+
+.heading2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-bottom: 2rem;
+}
+.p-style {
+    padding-top: 4rem;
+    font-size: 1.6rem;
+}
+
