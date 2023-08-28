@@ -275,3 +275,97 @@ body.wrong {
     font-size: 1.6rem;
 }
 
+/* Third section - News/Arena */
+.cogs {
+    
+    background: url(../images/background-1.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 0 10px 1px;
+}
+#news {
+    background-image: linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.1),
+            rgba(214, 227, 248, .2)),
+        url(../images/battle.png);
+        background-repeat: no-repeat;
+    background-size: 150rem 100rem;
+    background-position: center;
+    margin: 2% 3%;
+}
+.arena-row {
+    overflow: hidden;
+    margin: 0 auto;
+    clear: both;
+}
+.heading-forth {
+    color: black;
+    background: url(../images/holographic.gif);
+    background-size: 43rem 3rem;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: rgba(255, 255, 255, .3);
+    font-size: 2.9rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    padding: 1rem;
+    overflow: hidden;
+}
+.card {
+    perspective: 150rem;
+    height: 30rem;
+    width: 30rem;
+    border: .3rem solid #D6E3F8;
+    background-image: url(../images/paula.png);
+    object-fit: contain;
+    display: inline-block;
+}
+.card-2 {
+    height: 30rem;
+    width: 30rem;
+    border: .3rem solid #D6E3F8;
+    background-image: url(../images/ben.png);
+    object-fit: contain;
+    display: inline-block;
+    position: relative;
+}
+.col-1-of-3-last {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    padding: 6rem .7rem;
+    float: left;
+}
+.title {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    color: #000;
+    background-color: #D6E3F8;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0 1rem;
+}
+.video {
+    height: 20rem;
+    margin-top: 8rem;
+    margin-bottom: 6rem;
+    object-fit: contain;
+}
+.go-quiz-btn {
+    display: inline-block;
+    margin-top: 3rem;
+}
+.quiz-button {
+    margin-top: 5rem;
+    /*text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-45%, -150%);*/
+}
+
