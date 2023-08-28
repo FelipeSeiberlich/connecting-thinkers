@@ -463,3 +463,88 @@ a {
     text-decoration: none;
     color: #000;
 }
+
+/* Quiz page*/
+.header-quiz {
+    box-shadow: 1px 0 10px 1px;
+    background-image: linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.9),
+            #f59a32cc),
+        url(../images/header-image2.webp);
+    background-size: cover;
+    display: flex;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+}
+.no-link-deco {
+    text-decoration: none;
+    color: inherit;
+}
+.logo-box-1 {
+    position: absolute;
+    top: 5vh;
+    left: 2rem;
+    display: inline-block;
+}
+.quiz-card {
+    width: 50rem;
+    max-width: 80%;
+    border-radius: 5px;
+    padding: 10px 20px;
+    box-shadow: 0 0 10px 2px;
+    background-color: var(--hue);
+}
+#question {
+    font-size: 3rem;
+    color: #000;;
+}
+.controls {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.btn-quiz,
+.correct {
+    --hue: var(--hue-correct);
+}
+.btn-quiz,
+.wrong {
+    --hue: var(--hue-wrong);
+}
+.start-btn {
+    font-size: 5rem;
+    font-weight: bold;
+    margin: 2.5rem;
+    padding: 1rem 5rem;
+    background: url(../images/holographic.gif);
+}
+.next-btn {
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    background: url(../images/holographic.gif);
+}
+.hide {
+    display: none;
+}
+.btn-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 1rem;
+    margin: 3rem 0;
+}
+.btn-quiz {
+    font-weight: bold;
+    border: 1px solid #545454;
+    border-radius: 5px;
+    padding: 1rem 1rem;
+    --hue: var(--hue-neutral);
+    background-color: hsl(var(--hue), 100%, 50%);
+    background: url(../images/holographic.gif);
+}
+.btn-quiz:hover {
+    border-color: white;
+    box-shadow: 0 0 1px 1px;
+}
