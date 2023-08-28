@@ -1,18 +1,22 @@
-*, *::after, *::before {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
-} 
- 
+}
+
 :root {
     --hue-neutral: hsl(0, 0%, 100%);
     --hue-correct: rgba(56, 236, 56);
     --hue-wrong: rgb(248, 47, 47);
 }
+
 html {
     font-size: 62.5%;
     scroll-behavior: smooth;
 }
+
 body {
     --hue: var(var(--hue-neutral));
     font-family: "Lato", sans-serif;
@@ -25,12 +29,15 @@ body {
     width: 100vw;
     height: 95vh;
 }
+
 body.correct {
     background: var(--hue-correct);
 }
+
 body.wrong {
     background: var(--hue-wrong);
 }
+
 /*  Header */
 .header {
     height: 95vh;
@@ -44,14 +51,16 @@ body.wrong {
     clip-path: polygon(0 0, 100% 0, 100% 64.5%, 0% 100%);
     position: relative;
     box-shadow: 0 0 10px 2px;
-    
+
 }
+
 .logo-box {
     position: absolute;
     top: 5vh;
     left: 4rem;
     display: inline-block;
 }
+
 .logo-text {
     display: inline-block;
     color: #000;
@@ -61,6 +70,7 @@ body.wrong {
     text-decoration: none;
     color: #000;
 }
+
 .logo-text-first {
     display: block;
     font-size: 2em;
@@ -68,6 +78,7 @@ body.wrong {
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
+
 .logo-text-second {
     display: block;
     font-size: 2em;
@@ -75,14 +86,17 @@ body.wrong {
     text-transform: uppercase;
     letter-spacing: .4rem;
 }
+
 .logo {
     height: 7rem;
     width: 8rem;
 }
+
 .logo:hover {
     animation: moveInRight 5s ease-in;
     backface-visibility: hidden;
-} 
+}
+
 .text-box {
     text-align: center;
     position: absolute;
@@ -90,12 +104,14 @@ body.wrong {
     left: 50%;
     transform: translate(-50%, -80%);
 }
+
 .heading-primary {
     color: #000;
     text-transform: uppercase;
     backface-visibility: hidden;
     margin-bottom: 4rem;
 }
+
 .heading-primary-main {
     display: block;
     font-size: 3em;
@@ -103,10 +119,12 @@ body.wrong {
     letter-spacing: 2.5rem;
     animation: moveInLeft 5s ease-out;
 }
+
 .bulb {
     letter-spacing: .1rem;
     overflow: hidden;
 }
+
 .heading-primary-sub {
     display: block;
     font-size: 2em;
@@ -115,32 +133,39 @@ body.wrong {
     text-align: center;
     animation: moveInRight 5s ease-out;
 }
+
 @keyframes moveInLeft {
     0% {
         opacity: 0;
         transform: translateX(-10rem);
     }
+
     80% {
         transform: translateX(1rem);
     }
+
     100% {
         opacity: 1;
         transform: translate(0);
     }
 }
+
 @keyframes moveInRight {
     0% {
         opacity: 0;
         transform: translateX(10rem);
     }
+
     80% {
         transform: translateX(-1rem);
     }
+
     100% {
         opacity: 1;
         transform: translate(0);
     }
 }
+
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
@@ -155,14 +180,17 @@ body.wrong {
     padding: 1.5rem 4rem;
     display: inline-block;
 }
+
 .btn:hover {
     transform: translateY(-.3rem);
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
 }
+
 .btn:active {
     transform: translateY(-1px);
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
 }
+
 .btn::after {
     content: "";
     display: inline-block;
@@ -176,6 +204,7 @@ body.wrong {
     transition: all .4s;
     background-color: #fff;
 }
+
 .btn:hover::after {
     transform: scalex(1.4) scaleY(1.6);
     opacity: 0;
@@ -192,8 +221,9 @@ body.wrong {
     background-size: cover;
     background-position: center;
     padding: 13.7rem 0;
-    margin-top: -27rem;  
+    margin-top: -27rem;
 }
+
 .heading-secondary {
     color: black;
     text-shadow: 2px 2px #D6E3F8;
@@ -206,10 +236,12 @@ body.wrong {
     bottom: 10rem;
     right: 9rem;
 }
+
 .secondary {
     text-decoration: none;
     color: #000;
 }
+
 .secondary:hover {
     color: #F59A32;
 }
@@ -219,6 +251,7 @@ body.wrong {
     display: flex;
     box-shadow: 1px 0 10px 1px;
 }
+
 .heading-tertiary {
     color: black;
     font-size: 3rem;
@@ -226,16 +259,20 @@ body.wrong {
     font-weight: 700;
     letter-spacing: 2px;
 }
+
 .u-center-text {
     text-align: center;
 }
+
 .u-marging-bottom-8 {
     margin: 2rem 25rem;
 }
+
 .about-row {
     max-width: 114rem;
     margin: 0 auto;
 }
+
 .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
@@ -243,20 +280,24 @@ body.wrong {
     padding: 5rem .7rem;
     float: left;
 }
+
 .clock {
     align-items: center;
     font-size: 2rem;
 }
+
 .day {
     margin: 1rem 7rem;
     color: red;
 }
+
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
     padding: 6rem .7rem;
     float: left;
 }
+
 .col-2-of-3 {
     width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem);
     float: right;
@@ -270,6 +311,7 @@ body.wrong {
     letter-spacing: .2rem;
     padding-bottom: 2rem;
 }
+
 .p-style {
     padding-top: 4rem;
     font-size: 1.6rem;
@@ -277,7 +319,7 @@ body.wrong {
 
 /* Third section - News/Arena */
 .cogs {
-    
+
     background: url(../images/background-1.gif);
     background-repeat: no-repeat;
     background-size: cover;
@@ -287,21 +329,24 @@ body.wrong {
     align-items: center;
     box-shadow: 1px 0 10px 1px;
 }
+
 #news {
     background-image: linear-gradient(to right bottom,
             rgba(254, 254, 254, 0.1),
             rgba(214, 227, 248, .2)),
         url(../images/battle.png);
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-size: 150rem 100rem;
     background-position: center;
     margin: 2% 3%;
 }
+
 .arena-row {
     overflow: hidden;
     margin: 0 auto;
     clear: both;
 }
+
 .heading-forth {
     color: black;
     background: url(../images/holographic.gif);
@@ -316,6 +361,7 @@ body.wrong {
     padding: 1rem;
     overflow: hidden;
 }
+
 .card {
     perspective: 150rem;
     height: 30rem;
@@ -325,6 +371,7 @@ body.wrong {
     object-fit: contain;
     display: inline-block;
 }
+
 .card-2 {
     height: 30rem;
     width: 30rem;
@@ -334,12 +381,14 @@ body.wrong {
     display: inline-block;
     position: relative;
 }
+
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
     padding: 6rem .7rem;
     float: left;
 }
+
 .title {
     text-transform: uppercase;
     font-size: 1.5rem;
@@ -350,16 +399,19 @@ body.wrong {
     left: 0;
     padding: 0 1rem;
 }
+
 .video {
     height: 20rem;
     margin-top: 8rem;
     margin-bottom: 6rem;
     object-fit: contain;
 }
+
 .go-quiz-btn {
     display: inline-block;
     margin-top: 3rem;
 }
+
 .quiz-button {
     margin-top: 5rem;
     /*text-align: center;
@@ -376,11 +428,13 @@ body.wrong {
     justify-content: center;
     align-items: center;
 }
+
 #to-top {
     height: 5vh;
     position: relative;
     background-color: #000;
 }
+
 .top {
     font-weight: bold;
     position: absolute;
@@ -390,19 +444,22 @@ body.wrong {
     background: url(../images/holographic.gif);
     border-radius: 5px;
 }
+
 .top:hover {
     border-color: white;
 }
+
 .copyright {
     display: block;
 }
+
 .right {
     float: right;
     color: white;
     margin-right: 2rem;
 }
+
 a {
     text-decoration: none;
     color: #000;
 }
-
