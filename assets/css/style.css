@@ -369,3 +369,40 @@ body.wrong {
     transform: translate(-45%, -150%);*/
 }
 
+/* Footer */
+.footer {
+    height: 10vh;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+#to-top {
+    height: 5vh;
+    position: relative;
+    background-color: #000;
+}
+.top {
+    font-weight: bold;
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .4rem 1rem;
+    background: url(../images/holographic.gif);
+    border-radius: 5px;
+}
+.top:hover {
+    border-color: white;
+}
+.copyright {
+    display: block;
+}
+.right {
+    float: right;
+    color: white;
+    margin-right: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
