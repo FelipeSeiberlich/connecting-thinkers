@@ -1,41 +1,46 @@
 # CONNECTING THINKERS
- “Connecting Thinkers” is a website directed at those who like to be on top of the news. 
-The information is provided in a captive way from our debaters in a unique and innovative format. 
+
+ “Connecting Thinkers” is a website directed at those who like to be on top of the news. The information is 
+provided in a captive way from our debaters in a unique and innovative format.
+
 Every week, a new subject is uploaded in the Connecting Thinkers’ Arena, and two professionals with
 different expertise and background will debate about the same subject. You can easily access our latest
 content clicking in the What's New button above or scrolling down to the Arena section.
+
 Nowadays, people is becoming more politicized and speaking their minds as never before. Depending on 
 their beliefs and personal interesting, the information vehicles can be seriously compromised with partiality.
 According to Michael Altshuler - an American Author and Speaker about Business leadership - the “Bad news is time flies.
 The good news is you’re the pilot”. You have the power to decide from where to get reliable information.
+
 The way we use our time and the source we select to feed our brains can determine our deepest thoughts and existence
 and this can influence us positively or not. In the past, the Greek philosophers for example were very well known for
-their excellent time management skills to grow their knowledge in different areas of actuation as math, sciences, 
+their excellent time management skills and knowing how to grow their knowledge in different areas of actuation as math, sciences, 
 speech, languages, and this mix of understanding made them amazing debaters.
+
 Connecting Thinkers follows the same logical reasoning to bring you a quality debate crossing over different “Thinkers” 
-point of view and background. In “ Here in this section our current time is displayed as a reminder to use your time wisely.
+point of view and background. Here in this section our current time is displayed as a reminder to use your time wisely.
 The debaters will discuss the subject and you can check afterwards how much information you retained playing our quiz game.
 
 ![screenshot](documentation/mockup.png)
-Deployed site link: https://felipeseiberlich.github.io/connecting-thinkers/
+
+Deployed site link: [CONNECTING THINKERS](https://felipeseiberlich.github.io/connecting-thinkers/)
+
 ## UX
 ‘Connecting Thinkers’ design is inspired by the cogs, representing our brain’s function, by the ropes that connect spaces and tight things up, by the bulb lamp representing the knowledge and ideas, by the Greek buster representing our reference to the Greek philosophers and by the boxing ring representing a modern arena. Following the variety of movements and animation applied to the titles and buttons at Connecting Thinkers website, the reference is that different opinions should meet in the middle and knowledge needs to emanate as waves.
 The navigation was designed in a way that the user could be easily taken to any part of the landing and quiz pages. The links are displayed intentionally in the diagonal to reference one more time that extremities can be linked and to provide a clean and harmonic layout.
+
 ### Colour Scheme
 In the early stages of the project, I envisioned a nice contrast between tones of orange black and grey. In the middle of the project the lavender was added to the scheme color palette to bring freshness and joy . 
 My inspiration for Connecting Thinkers website was based on the visuals of complementary colours, by the elegance of black and white for the headings and page's background and the eye catching Davy's grey for general text.
+
 - `#000000` used for primary text.
 - `#E84610` used for primary highlights.
 - `#4A4A4F` used for secondary text.
 - `#009FE3` used for secondary highlights.
-⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
-Consider adding a link and screenshot for your colour scheme using "coolors".
-https://coolors.co/generate
-When you add a colour to the palette, the URL is dynamically updated, making it easier for you to return back to your colour palette later if needed.
-Example:
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 ![screenshot](documentation/coolors.png)
+
 ⚠️⚠️⚠️⚠️⚠️ START OF NOTES (to be deleted) ⚠️⚠️⚠️⚠️⚠️
 If you've used CSS `:root` variables, consider also including a code snippet here!
 🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
