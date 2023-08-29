@@ -1,21 +1,23 @@
 # CONNECTING THINKERS
-“Connecting Thinkers” is a website directed at those who like to be on top of the news. The information is provided in a captive way from our debaters in a unique and innovative format. Every week, a new subject is uploaded in the Connecting Thinkers’ Arena, and two professionals with different expertise and background will debate about the same subject. You can easily access our latest content clicking in the What's New button above or scrolling down to the Arena section.
-Nowadays, people is becoming more politicized and speaking their minds as never before. Depending on their beliefs and personal interesting, the information vehicles can be seriously compromised with partiality. According to Michael Altshuler - an American Author and Speaker about Business leadership - the “Bad news is time flies. The good news is you’re the pilot”. You have the power to decide from where to get reliable information.
-The way we use our time and the source we select to feed our brains can determine our deepest thoughts and existence and this can influence us positively or not. In the past, the Greek philosophers for example were very well known for their excellent time management skills to grow their knowledge in different areas of actuation as math, sciences, speech, languages, and this mix of understanding made them amazing debaters.
-Connecting Thinkers follows the same logical reasoning to bring you a quality debate crossing over different “Thinkers” point of view and background. In “ Here in this section our current time is displayed as a reminder to use your time wisely. The debaters will discuss the subject and you can check afterwards how much information you retained playing our quiz game.
-Consider adding a mockup image using the "Am I Responsive" website.
-Here's your deployed site as an example:
-https://ui.dev/amiresponsive?url=https://felipeseiberlich.github.io/connecting-thinkers
-Screenshots for the README and testing should not be inside of `assets/` or `static/` image folders.
-(reminder: `assets/` and `static/` are for files used on the live site, not documentation)
-Consider adding a new folder called `documentation`, and add the amiresponsive screenshot inside of that folder.
-To add the image into your README, use this format:
-(assuming you have a new folder called `documentation` with an image called "mockup.png")
+ “Connecting Thinkers” is a website directed at those who like to be on top of the news. 
+The information is provided in a captive way from our debaters in a unique and innovative format. 
+Every week, a new subject is uploaded in the Connecting Thinkers’ Arena, and two professionals with
+different expertise and background will debate about the same subject. You can easily access our latest
+content clicking in the What's New button above or scrolling down to the Arena section.
+Nowadays, people is becoming more politicized and speaking their minds as never before. Depending on 
+their beliefs and personal interesting, the information vehicles can be seriously compromised with partiality.
+According to Michael Altshuler - an American Author and Speaker about Business leadership - the “Bad news is time flies.
+The good news is you’re the pilot”. You have the power to decide from where to get reliable information.
+The way we use our time and the source we select to feed our brains can determine our deepest thoughts and existence
+and this can influence us positively or not. In the past, the Greek philosophers for example were very well known for
+their excellent time management skills to grow their knowledge in different areas of actuation as math, sciences, 
+speech, languages, and this mix of understanding made them amazing debaters.
+Connecting Thinkers follows the same logical reasoning to bring you a quality debate crossing over different “Thinkers” 
+point of view and background. In “ Here in this section our current time is displayed as a reminder to use your time wisely.
+The debaters will discuss the subject and you can check afterwards how much information you retained playing our quiz game.
+
 ![screenshot](documentation/mockup.png)
-Note: Markdown files (.md) should not contain HTML elements like `img`, `br`, `div`, `a`, etc, only Markdown formatting.
-Find out more about using Markdown elements here:
-https://pandao.github.io/editor.md/en.html
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
+Deployed site link: https://felipeseiberlich.github.io/connecting-thinkers/
 ## UX
 ‘Connecting Thinkers’ design is inspired by the cogs, representing our brain’s function, by the ropes that connect spaces and tight things up, by the bulb lamp representing the knowledge and ideas, by the Greek buster representing our reference to the Greek philosophers and by the boxing ring representing a modern arena. Following the variety of movements and animation applied to the titles and buttons at Connecting Thinkers website, the reference is that different opinions should meet in the middle and knowledge needs to emanate as waves.
 The navigation was designed in a way that the user could be easily taken to any part of the landing and quiz pages. The links are displayed intentionally in the diagonal to reference one more time that extremities can be linked and to provide a clean and harmonic layout.
