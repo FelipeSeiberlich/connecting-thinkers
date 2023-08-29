@@ -548,3 +548,116 @@ a {
     border-color: white;
     box-shadow: 0 0 1px 1px;
 }
+
+/* For big screens sizes from 1210px wide and down */
+/* About/Steps section */
+@media screen and (max-width: 1210px) {
+}
+
+/* For medium screens sizes from 950px wide and down */
+/* About/Steps section */
+@media screen and (max-width: 950px) {
+}
+/* For small screens sizes from 730px wide and down */
+/* Index page */
+@media screen and (max-width: 730px) {
+    
+    .logo {
+        height: 5rem;
+        width: 6rem;
+    }
+    .logo-box {
+        
+        left: 0;
+        
+    }
+    .logo-text-first, .logo-text-second {
+        font-size: 1.5em;
+    }
+    
+    .heading-primary-main {
+        
+        font-size: 1.5em;
+        letter-spacing: 1.5rem;
+    }
+    
+    .heading-primary-sub {
+        
+        font-size: 1em;
+        
+        letter-spacing: 1.5rem;
+       
+    }
+    /* Quiz Game Page - Header */
+    .logo-box-1 {
+        left: 2rem;
+    }
+   
+    
+    /* First section - ABOUT */
+.section-about {
+    background-image:
+        linear-gradient(to right bottom,
+            rgba(254, 254, 254, .1),
+            #D6E3F8),
+        url(../images/cogs.png);
+    
+}
+.heading-secondary {
+    
+    bottom: 8rem;
+    right: 6rem;
+}
+/* Second section - History */
+#history {
+    
+    box-shadow: 1px 0 10px 1px;
+    
+    
+}
+.heading-tertiary {
+    margin: auto 0; 
+}
+.u-marging-bottom-8 {
+    margin: 2rem 10rem;
+}
+.about-row {
+    flex-wrap: wrap;
+    gap:2rem 8rem;
+}
+.col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3);
+    text-align: center;
+    margin-right: 6rem;
+    padding: 5rem .7rem;
+    float: left;
+    
+}
+.clock {
+    align-items: center;
+    font-size: 2rem;
+    color:black
+}
+.day {
+    margin: 1rem 7rem;
+    color: orangered;
+}
+.col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 1rem);
+    float: right;
+    text-align: center;
+    
+}
+.heading2 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    padding-bottom: 2rem;
+}
+.p-style {
+    padding-top: 4rem;
+    font-size: 1.6rem;
+}
+}
+
