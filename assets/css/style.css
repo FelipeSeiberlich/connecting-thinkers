@@ -283,25 +283,24 @@ body.wrong {
     margin-right: 6rem;
     padding: 5rem .7rem;
     float: left;
-    
 }
+
 
 .clock {
     align-items: center;
+    text-align: center;
     font-size: 2rem;
     color: #000;
-    margin-left: 1rem;
 }
 
 .day {
-    margin: 1rem 7rem;
     color: orangered;
 }
 
 .col-1-of-3-last {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
-    padding: 6rem .7rem;
+    padding: 6rem .3rem;
     float: left;
 }
 
@@ -617,10 +616,6 @@ a {
 }
 /* Second section - History */
 
-#history {
-    box-shadow: 1px 0 10px 1px;
-}
-
 .heading-tertiary {
     margin: auto 0; 
 }
@@ -633,39 +628,29 @@ a {
     flex-wrap: wrap;
     gap:2rem 8rem;
 }
+
 .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
     margin-right: 6rem;
-    padding: 5rem .7rem;
-    float: left;
-    
+    padding: 1rem 0 0 3rem;
+    float: left; 
 }
+
 .clock {
     align-items: center;
     font-size: 2rem;
     color:black
 }
+
 .day {
-    margin: 1rem 7rem;
     color: orangered;
 }
-.col-2-of-3 {
-    width: calc(2 * ((100% - 2 * 6rem) / 3) + 1rem);
-    float: right;
-    text-align: center;
-    
-}
-.heading2 {
-    font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: .2rem;
-    padding-bottom: 2rem;
-}
+
 .p-style {
-    padding-top: 4rem;
+    padding: 3rem 0;
     font-size: 1.6rem;
+    
 }
 }
 
