@@ -345,6 +345,7 @@ body.wrong {
     background-size: 150rem 100rem;
     background-position: center;
     margin: 2% 3%;
+    
 }
 
 .arena-row {
@@ -651,6 +652,13 @@ a {
     padding: 3rem 0;
     font-size: 1.6rem;
     
+}
+
+
+.arena-row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
 
