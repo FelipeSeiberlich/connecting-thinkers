@@ -247,8 +247,8 @@ body.wrong {
 }
 
 /* Second section - History */
+
 #history {
-    display: flex;
     box-shadow: 1px 0 10px 1px;
 }
 
@@ -269,8 +269,12 @@ body.wrong {
 }
 
 .about-row {
-    max-width: 114rem;
+    max-width: 125rem;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
 }
 
 .col-1-of-3 {
@@ -279,16 +283,19 @@ body.wrong {
     margin-right: 6rem;
     padding: 5rem .7rem;
     float: left;
+    
 }
 
 .clock {
     align-items: center;
     font-size: 2rem;
+    color: #000;
+    margin-left: 1rem;
 }
 
 .day {
     margin: 1rem 7rem;
-    color: red;
+    color: orangered;
 }
 
 .col-1-of-3-last {
@@ -313,7 +320,7 @@ body.wrong {
 }
 
 .p-style {
-    padding-top: 4rem;
+    padding: 2rem;
     font-size: 1.6rem;
 }
 
@@ -592,7 +599,7 @@ a {
     .logo-box-1 {
         left: 2rem;
     }
-   
+
     
     /* First section - ABOUT */
 .section-about {
@@ -609,18 +616,19 @@ a {
     right: 6rem;
 }
 /* Second section - History */
+
 #history {
-    
     box-shadow: 1px 0 10px 1px;
-    
-    
 }
+
 .heading-tertiary {
     margin: auto 0; 
 }
+
 .u-marging-bottom-8 {
     margin: 2rem 10rem;
 }
+
 .about-row {
     flex-wrap: wrap;
     gap:2rem 8rem;
