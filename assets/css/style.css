@@ -283,6 +283,7 @@ body.wrong {
     margin-right: 6rem;
     padding: 5rem .7rem;
     float: left;
+    
 }
 
 
@@ -291,10 +292,17 @@ body.wrong {
     text-align: center;
     font-size: 2rem;
     color: #000;
+    padding: 0 1rem 0 1rem;
+    overflow: visible;
 }
 
 .day {
     color: orangered;
+    overflow: visible;
+}
+
+.time {
+    
 }
 
 .col-1-of-3-last {
