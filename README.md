@@ -21,7 +21,7 @@ Connecting Thinkers follows the same logical reasoning to bring you a quality de
 point of view and background. Here in this section our current time is displayed as a reminder to use your time wisely.
 The debaters will discuss the subject and you can check afterwards how much information you retained playing our quiz game.
 
-![screenshot](documentation/mockup.png)
+![screenshot](documentation/responsive.png)
 
 Deployed site link: [CONNECTING THINKERS](https://felipeseiberlich.github.io/connecting-thinkers/)
 
@@ -33,10 +33,10 @@ The navigation was designed in a way that the user could be easily taken to any 
 In the early stages of the project, I envisioned a nice contrast between tones of orange black and grey. In the middle of the project the lavender was added to the scheme color palette to bring freshness and joy . 
 My inspiration for Connecting Thinkers website was based on the visuals of complementary colours, by the elegance of black and white for the headings and page's background and the eye catching Davy's grey for general text.
 
-- `#000000` used for primary text.
-- `#E84610` used for primary highlights.
-- `#4A4A4F` used for secondary text.
-- `#009FE3` used for secondary highlights.
+- `#545454;` used for primary text.
+- `#000000` used for primary highlights.
+- `#F59A32` Background color.
+- `#D6E3F8` Decoration.
 
 I used [coolors.co](https://coolors.co/e84610-009fe3-4a4a4f-445261-d63649-e6ecf0-000000) to generate my colour palette.
 ![screenshot](documentation/coolors.png)
@@ -51,50 +51,65 @@ I've used CSS `:root` variables to easily update the global colour scheme by cha
 }
 ```
 ### Typography
-The font-family selected for 'Connecting Thinkers' body is Lato, sans-serif and for the Headings Oswad, sans-serif a typographic style that is appealing and clear.
-Example:
-🛑🛑🛑🛑🛑 END OF NOTES (to be deleted) 🛑🛑🛑🛑🛑
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+The font-family selected for 'Connecting Thinkers' body and  Headings is "Lato, sans-serif" and for the logo is "Cursive" a typographic style that is appealing and clear.
+
+- [Lato](https://fonts.google.com/specimen/Lato) was used for the body text and headings.
+- [Cursive](https://fonts.google.com/specimen/Montserrat) was used for the logo text.
+
 
 ## Features
-‘Connecting Thinkers’ website is composed by 2 pages – the Index and the Quiz game. The landing page contains a header, an about section, the Our History section, the Arena section, and the footer. The Quiz game page contains the logo, a card displaying the game and a footer.
+‘Connecting Thinkers’ website is composed by 2 pages – the Index and the Quiz game. The landing page contains a header, an about section that leads to the following section, the Our History section, the Arena section, and the footer. The Quiz game page contains the logo, a card box displaying the quiz game and a footer.
+
 The Index Page
-The Index Page has a compound background image bounding a very vibrant color with a monochromatic one, showing that differences can live side by side. The navigation can be made throughout the header. The logo image links the user to the Quiz game page, the ‘What’s new’ button displayed in the center of the header links to the Arena and the About button leads the user to Our History.
-The ‘Our History’ section display the concept of the Connecting Thinkers website and the current date, day, and time as a reminder for users to use their time wisely.
-In the following section the users can find our Arena, the place we present our debaters of the week and their following professions. The debate can be watched by the users in the center of the Arena with an expandable video.
-The footer displays a button that leads the user all the way up to the page's header and the copyright mark.
+
+The Index Page has a compound background image bounding a vibrant color with a dark monochromatic one, showing that differences can live side by side. The navigation can be made throughout the header. The logo leads the user to the Quiz game page, the ‘What’s new’ button displayed in the center of the header leads them to the Arena section and the About button leads the users to Our History section.
+The ‘Our History’ section explains the concept behind the 'Connecting Thinkers' website and the current date, day, and time as a reminder for users to use their time wisely.
+In the following section the users can find our Arena, the place we present our debaters of the week and their following professions. The debate can be watched by the users in the center of the Arena with an expandable video linked to the Youtube platform.
+The footer displays a button that leads the user all the way up to the page's header and the copyright mark positioned to the right.
  
 The header
-The header shows the logo followed by the website's name, Connecting Thinkers, presented in black capitals, one of the main colours of the website's palette. 
-The index webpage is displayed in almost full viewport but allows the user to scroll down to the other sections or to click in the linked button, image, and text to reach them.
-The Connecting Thinkers tittle present in the header has an intended animation applied to it as reference that different opinions should meet in the middle and the button bellow effects that knowledge needs to emanate.
-Finally, the header is connected to the About section that display a linked text leading the users to the following section.
+
+The header shows the logo followed by the website's name - 'Connecting Thinkers', displayed in black capitals, one of the main colours of the website's palette. 
+The index webpage is displayed in almost full viewport but allows the user to scroll down to the other sections or to click in the linked button, image, and text to be transported to different parts of the webpage.
+The Connecting Thinkers tittle present in the header has an intended animation applied to it as reference that different opinions should meet in the middle and the button bellow effects that knowledge needs to emanate like waves.
+Finally, the header is connected to the About section that display a link leading the users to the following section - 'Our History'.
+
 The About section
-The About section was created with the intention to be connected to the header and to lead the users to the following section with a click. These two sections bounded provide the users an efficient navigation to all sections and side page. As elucidated before the background image was selected with the intention to nicely contrast with the header’s color and background and to make a reference of the brain function represented by the cogs. The text displayed in this section changes its color to orange when hovered over by the users.
+
+The About section was created with the intention to be connected to the header and to lead the users to the following section with a click. These two sections bounded provide the users an efficient navigation to all sections of the webpage. As elucidated before, the background image was selected with the intention to nicely contrast with the header’s color and background and to make a reference to the brain's function represented by the cogs. The text displayed in this section changes its color to orange when hovered over by the users.
+
 The Our History section
-The ‘Our History’ section contains some vital information about the page itself, about the Connecting Thinkers creation process the frequency of videos uploads. One of Connecting Thinkers references goes back in time until the great Greeks Philosophers like Aristotle and Plato. A Greek bust statue decorates this section following by our current date, time, and hour. This functionality was integrated to the website to reminder the users to use their time wisely.
+
+The ‘Our History’ section contains some vital information about the site, about the 'Connecting Thinkers' creation process and the frequency of new contents. One of 'Connecting Thinkers' references goes back in time to the great Greeks Philosophers like Aristotle and Plato. A Greek bust statue decorates this section following by our current date, time, and hour. This functionality was integrated to the website as a reminder to the users to use their time wisely.
 This section was designed like a flash card following the concept of knowledge comes with hardwork, dedication and education.
+
 The Arena section
+
 The Arena section has an important role in this website. It hosts the debate and presents the week’s debaters. The concept of creating an arena transcend the Ancient Roman Empire, where gladiators used to fight for their lives while the emperor provides entertainment to the people.
-Connecting Thinkers in the other hand modernized the concept bringing a box ring so the debaters can intellectually “fight” to keep their point of view alive.
-On the top of the background image, a heading contains the week’s subject, and it is displayed in a subtle purpled colour animation to create a visual contrast. Every week a new subject, a new video and new debaters will be selected and added to this panel.
-After or before the intellectual nourishment, users can be entertained by a quiz game clicking on the “Do you know?” Button and an external page will display the game.
-The Footer 
-The footer has its background colour in black and hosts the copyright and a function button that brings the users to the top of the page
+'Connecting Thinkers' modernized this concept bringing a boxing ring so the debaters can intellectually “fight” to keep their point of view alive.
+On the top of the background image, a heading contains the week’s subject, and it is displayed in a subtle purpled colour animation to create a visual contrast. Every week a new subject, a new video and new debaters will be selected to compose this panel.
+Like in the Roman Empire, users can be entertained by a quiz game clicking on the 'Do you know?' Button and an external page will display the game.
+
+The Footer
+
+The footer has its background colour in black and hosts the copyright and a function button that brings the users back to the top of the page.
 
 ### Existing Features
+
 - **Back to top button**
 - Having a "back to top" button on a website is important. It allows users to easily scroll back to the top of the page. Java Script was used for this addition.
 ![screenshot](documentation/feature01.png)
+
 - **Display current date and time**
 - Even that most of devices has the current date and time displayed, Connecting Thinkers website brings this feature in the center of the page side-by-side the main text. The golden ratio was applied so the human eye can process it faster and that causes our brain to feel pleased.
 ![screenshot](documentation/feature02.png)
+
 - **Quiz game**
 - This feature is an important addition to the website because offer the users an interactive way of solidifying their knowledge. 
 ![screenshot](documentation/feature03.png)
+
 ### Future Features
+
 In the future I would like to include the following features:
 - Video gallery
     - A space reserved to all videos published by Connecting Thinkers.
@@ -104,7 +119,8 @@ In the future I would like to include the following features:
     - I would like to add the user's total score in the end of the game.
 
 ## Tools & Technologies Used
-I have listed bellow all tools and tecnologies used to develop Neglected Things Website.
+
+I have listed bellow all tools and tecnologies used to develop Connecting Thinkers Website.
 
 - [HTML](https://en.wikipedia.org/wiki/HTML) used for the main site content.
 - [CSS](https://en.wikipedia.org/wiki/CSS) used for the main site design and layout.
@@ -156,8 +172,8 @@ You can fork this repository by using the following steps:
 No significant changes were detected between the local developed version and the live deployed site on GitHub Pages.
 
 ## Credits
-I would like to credit [Canva](https://www.canva.com/) for all imaginary and video used on [NEGLECTED THINGS](https://felipeseiberlich.github.io/neglected-things)
-website. I also would like to credit [W3Schools](https://www.w3schools.com/) and [Kevin Powell YouTube channel](https://www.youtube.com/) for helping me with the development of Neglected Things' Nav bar and animations using the transition element.
+I would like to credit [Canva](https://www.canva.com/) for all imaginary and video used on [Connectig Thinkers](https://felipeseiberlich.github.io/connecting-thinkers/)
+website. I also would like to credit [W3Schools](https://www.w3schools.com/) and [Flexbox Froggy](https://flexboxfroggy.com/) for helping me with the development of Connecting Thinkers' second and third sections.
 In relation to the README.md file, I would like to credit [Tim Nelson](https://github.com/TravelTimN) for developing this amazing tool [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) used to help generate the Markdown files. This generator provides guidance to the students in providing well structured
 documentation.
 
@@ -165,10 +181,9 @@ documentation.
 | Link | Location | Notes |
 | --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
-| [Kevin Powell YouTube channel](https://www.youtube.com/watch?v=8QKOaTYvYUA) | Responsive Nav Bar | "Create a responsive navigation nav with no JS!" |
+| [Flexbox Froggy](https://flexboxfroggy.com/) | Responsive Nav Bar | "Create a responsive navigation nav with no JS!" |
 | [W3Schools](https://www.w3schools.com/css/css_navbar.asp) | Navigation bar | responsive HTML/CSS navbar |
-| [Code Institute](https://learn.codeinstitute.net) | About/Steps section | how to use float |
-| [Code Institute](https://learn.codeinstitute.net) | Forms | how to create forms |
+| [Code Institute](https://learn.codeinstitute.net) | Flexbox |
 
 ### Media
 Find bellow a list of attribution links to all images and videos files borrowed from online.
@@ -177,10 +192,9 @@ Find bellow a list of attribution links to all images and videos files borrowed 
 | --- | --- | --- | --- |
 | [Favico.ico](https://www.favicon.cc/) | entire site | image | favicon on all pages |
 | [Canva](https://www.canva.com/) | entire site | image and video | Video in the Index page and imaginary in the home page |
-| [Font Awesome](https://fontawesome.com) | Footer and About/Steps sections | Icon | Icons of chess pieces |
 
 ### Acknowledgements
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://github.com/TravelTimN) for his support throughout the development of this project.
-- I would like to thank the [Code Institute](https://codeinstitute.net) tutor team for their assistance with troubleshooting and debugging some project issues.
+- I would like to thank my Code Institute mentor, [Rahul Lakhanpal](https://github.com/RahulLakhanpal) for his support throughout the development of this project.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support.
-- I would like to thank my best friend (Nailla Santos), for believing in me, and allowing me to make this transition into software development.
+- I would like to thank the Student Care Agent Kim, for all the help.
