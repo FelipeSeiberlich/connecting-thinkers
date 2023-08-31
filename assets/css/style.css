@@ -325,26 +325,26 @@ body.wrong {
 }
 
 .p-style {
-    padding: 1rem;
+    padding: 2rem 2rem 2rem 0;
     font-size: 1.6rem;
 }
 
 /* Third section - News/Arena */
 .cogs {
-
+    background-image: linear-gradient(to right bottom,
+            rgba(254, 254, 254, 0.1),
+            rgba(214, 227, 248, .2)),
+        url(../images/battle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     
     
     box-shadow: 1px 0 10px 1px;
 }
 
 #news {
-    background-image: linear-gradient(to right bottom,
-            rgba(254, 254, 254, 0.1),
-            rgba(214, 227, 248, .2)),
-        url(../images/battle.png);
-    background-repeat: no-repeat;
-    background-size: 145rem 100rem;
-    background-position: center;
+    
     margin: 2% 3%;
     
     
