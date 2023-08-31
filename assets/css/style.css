@@ -280,6 +280,8 @@ body.wrong {
 .col-1-of-3 {
     width: calc((100% - 2 * 6rem) / 3);
     text-align: center;
+    margin-right: 6rem;
+    padding: 5rem .7rem;
     float: left; 
 }
 
@@ -330,13 +332,8 @@ body.wrong {
 /* Third section - News/Arena */
 .cogs {
 
-    background: url(../images/background-1.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+    
+    
     box-shadow: 1px 0 10px 1px;
 }
 
@@ -346,16 +343,18 @@ body.wrong {
             rgba(214, 227, 248, .2)),
         url(../images/battle.png);
     background-repeat: no-repeat;
-    background-size: 150rem 100rem;
+    background-size: 145rem 100rem;
     background-position: center;
     margin: 2% 3%;
+    
     
 }
 
 .arena-row {
-    overflow: hidden;
-    margin: 0 auto;
-    clear: both;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .heading-forth {
@@ -660,14 +659,6 @@ a {
 
 /* Third section - News/Arena */
 .cogs {
-
-    background: url(../images/background-1.gif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
     box-shadow: 1px 0 10px 1px;
 }
 
@@ -677,7 +668,7 @@ a {
             rgba(214, 227, 248, .2)),
         url(../images/battle.png);
     background-repeat: no-repeat;
-    background-size: 150rem 100rem;
+    background-size: cover;
     background-position: center;
     margin: 2% 3%;
 }
@@ -685,7 +676,8 @@ a {
 .arena-row {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
 }
 
 .heading-forth {
@@ -705,17 +697,20 @@ a {
 
 .card {
     perspective: 150rem;
-    height: 30rem;
-    width: 30rem;
+    height: 20rem;
+    width: 25rem;
     border: .3rem solid #D6E3F8;
     background-image: url(../images/paula.png);
     object-fit: contain;
-    display: inline-block;
+    flex-flow: 50rem;
+    
+    
+
 }
 
 .card-2 {
-    height: 30rem;
-    width: 30rem;
+    height: 25rem;
+    width: 20rem;
     border: .3rem solid #D6E3F8;
     background-image: url(../images/ben.png);
     object-fit: contain;
@@ -742,10 +737,11 @@ a {
 }
 
 .video {
-    height: 20rem;
+    height: 15rem;
     margin-top: 8rem;
     margin-bottom: 6rem;
     object-fit: contain;
+    float: left;
 }
 
 .go-quiz-btn {
