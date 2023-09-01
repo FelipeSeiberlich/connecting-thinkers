@@ -580,12 +580,10 @@ a {
     .arena-row {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        justify-content: flex-start;
         align-content: center;
     }
-    
-    
-    
+
     .card {
         
         height: 20rem;
@@ -593,10 +591,7 @@ a {
         border: .3rem solid #D6E3F8;
         background-image: url(../images/paula.png);
         object-fit: contain;
-        flex-flow: 50rem;
         
-        
-    
     }
     
     .card-2 {
@@ -613,7 +608,8 @@ a {
     .col-1-of-3-last {
         width: calc((100% - 2 * 6rem) / 3);
         text-align: center;
-        padding: 1rem .7rem;     
+        padding: 1rem 3rem 0 0;
+        
         
         
         
@@ -632,12 +628,10 @@ a {
     
     .video {
         height: 25rem;
+        margin: 0 0 0 1rem;
         
-        margin: 0 1px;
         
-        float: left;
-        overflow: hidden;
-        clear: both;
+        
                 
     }
     
@@ -772,11 +766,11 @@ a {
 
 .heading-forth {
     
-    background-size: 43rem 3rem;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-color: orange;
+    
     font-size: 2rem;
+    color: orange;
+    background-color: rgba(0, 0, 0, .3);
+    border-radius: 5rem;
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2px;
