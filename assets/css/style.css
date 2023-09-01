@@ -553,8 +553,8 @@ a {
     border-radius: 5px;
     padding: 1rem 1rem;
     --hue: var(--hue-neutral);
-    background-color: hsl(var(--hue), 100%, 50%);
-    background: url(../images/holographic.gif);
+    background-color: white;
+    
 }
 .btn-quiz:hover {
     border-color: white;
