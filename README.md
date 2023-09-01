@@ -182,7 +182,8 @@ documentation.
 | --- | --- | --- |
 | [Markdown Builder by Tim Nelson](https://traveltimn.github.io/markdown-builder) | README and TESTING | tool to help generate the Markdown files |
 | [Flexbox Froggy](https://flexboxfroggy.com/) | Responsive Nav Bar | "Create a responsive navigation nav with no JS!" |
-| [W3Schools](https://www.w3schools.com/css/css_navbar.asp) | Navigation bar | responsive HTML/CSS navbar |
+| [Jonas Schmedtmann](https://www.youtube.com/@jonasschmedtmann) | Navigation bar | responsive HTML/CSS navbar |
+| [Jonas Schmedtmann](https://www.youtube.com/@jonasschmedtmann) | Java Script |
 | [Code Institute](https://learn.codeinstitute.net) | Flexbox |
 
 ### Media
