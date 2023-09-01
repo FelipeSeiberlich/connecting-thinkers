@@ -569,11 +569,15 @@ a {
 /* For big screens sizes from 1210px wide and down */
 /* About/Steps section */
 @media screen and (max-width: 1210px) {
+    .quiz-button {
+        margin-top: 5rem;
+        margin-left: 45rem;
+    }
 }
 
 /* For medium screens sizes from 950px wide and down */
 /* About/Steps section */
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 1150px) {
 }
 /* For small screens sizes from 730px wide and down */
 /* Index page */
