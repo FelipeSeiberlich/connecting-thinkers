@@ -18,16 +18,11 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 ### Local file by input
 
 #### index.html file
-![Screenshot](documentation/w3c-validator-index.png)
+![Screenshot](documentation/validator-checker-html-local.png)
 
-#### home.html file
+#### quiz.html file
 ![Screenshot](documentation/w3c-validator-home.png)
 
-#### signin.html file
-![Screenshot](documentation/w3c-validator-signin.png)
-
-#### signup.html file
-![Screenshot](documentation/w3c-validator-signup.png)
 
 ### Live deployed site pages
 
@@ -35,10 +30,8 @@ All HTML pages were validated as shown bellow.
 
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Landing | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2F) | ![screenshot](documentation/validator-live-index.png)| Pass: No Errors |
-| Home | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fhome.html) | ![screenshot](documentation/validator-live-home.png) | Pass: No Errors |
-| Sign In | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fsign-in.html) | ![screenshot](documentation/validator-live-signin.png) | Pass: No Errors |
-| Sign Up | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fsign-up.html) | ![screenshot](documentation/validator-live-signup.png) | Pass: No Errors |
+| Index | [W3C](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fconnecting-thinkers%2F) | ![screenshot](documentation/validator-checker-index.html.png)| Pass: No Errors |
+| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fhome.html) | ![screenshot](documentation/validator-live-home.png) | Pass: No Errors |
 
 ### CSS
 
