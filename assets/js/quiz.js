@@ -78,7 +78,7 @@ const questions = [
     ]
   },
   {
-    question: 'There is no scientific evidence that shows that technology harm our cognitive abilities?',
+    question: 'Does technology harm our cognitive abilities?',
     answers: [
       { text: 'True', correct: true },
       { text: 'False', correct: false }      ]
@@ -93,7 +93,7 @@ const questions = [
     ]
   },
   {
-    question: 'Online tools and video games can improve cognitive functioning?',
+    question: 'Online tools can improve cognitive functioning?',
     answers: [
       { text: 'False', correct: false },
       { text: 'True', correct: true }
