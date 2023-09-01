@@ -69,35 +69,34 @@ function clearStatusClass(element) {
 }
 const questions = [
   {
-    question: 'The first alarm clock only rings at?',
+    question: 'Excessive use of technology can compromise?',
     answers: [
-      { text: '4', correct: true },
-      { text: '22', correct: false }
+      { text: 'Critical thinking', correct: true },
+      { text: 'Cognitive abilities', correct: false },
+      { text: 'Focus', correct: true },
+      { text: 'Memory', correct: true }
     ]
   },
   {
-    question: 'What was Nokia s first product?',
+    question: 'There is no scientific evidence that shows that technology harm our cognitive abilities?',
     answers: [
-      { text: 'Web Dev Simplified', correct: true },
-      { text: 'Traversy Media', correct: true },
-      { text: 'Dev Ed', correct: true },
-      { text: 'Fun Fun Function', correct: true }
+      { text: 'True', correct: true },
+      { text: 'False', correct: false }      ]
+  },
+  {
+    question: 'Frequent use of digital technology increases…?',
+    answers: [
+      { text: 'Brain development', correct: false },
+      { text: 'ADHD', correct: true },
+      { text: 'Quality sleep', correct: false },
+      { text: 'Social intelligence', correct: false }
     ]
   },
   {
-    question: 'Is web development fun?',
+    question: 'Online tools and video games can improve cognitive functioning?',
     answers: [
-      { text: 'Kinda', correct: false },
-      { text: 'YES!!!', correct: true },
-      { text: 'Um no', correct: false },
-      { text: 'IDK', correct: false }
-    ]
-  },
-  {
-    question: 'The world s first computer mouse was made of?',
-    answers: [
-      { text: '6', correct: false },
-      { text: '8', correct: true }
+      { text: 'False', correct: false },
+      { text: 'True', correct: true }
     ]
   }
 ]

@@ -243,7 +243,7 @@ body.wrong {
 }
 
 .secondary:hover {
-    color: #F59A32;
+    color: rgb(245, 154, 50);
 }
 
 /* Second section - History */
