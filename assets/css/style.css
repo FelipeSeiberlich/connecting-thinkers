@@ -222,7 +222,8 @@ body.wrong {
 .heading-secondary {
     color: black;
     text-shadow: 2px 2px #D6E3F8;
-    border-radius: 10px;
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 4rem;
     font-size: 3.5rem;
     text-transform: uppercase;
     font-weight: 700;
@@ -665,16 +666,10 @@ a {
     }
 
     /* First section - ABOUT */
-    .section-about {
-        background-image:
-            linear-gradient(to right bottom,
-                rgba(254, 254, 254, .1),
-                #D6E3F8),
-            url(../images/cogs.png);
-    }
 
     .heading-secondary {
-        bottom: 8rem;
+        background-color: rgba(255, 255, 255, .9);
+        bottom: 4.5rem;
         right: 6rem;
     }
 
