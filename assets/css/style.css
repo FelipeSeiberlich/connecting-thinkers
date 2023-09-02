@@ -566,14 +566,16 @@ a {
 /* About/Steps section */
 @media screen and (max-width: 1210px) {
 
+    /* Header*/
     .text-box {
         top: 55%;
     }
-    
+
     .heading-primary-main {
         font-size: 2em;
     }
 
+    /* Arena*/
     .quiz-button {
         margin-top: 5rem;
         margin-left: 45rem;
@@ -583,54 +585,35 @@ a {
 /* For medium screens sizes from 950px wide and down */
 /* About/Steps section */
 @media screen and (max-width: 1150px) {
-    
+
+    /* Header*/
     .text-box {
         top: 60%;
     }
-    
+
     .heading-primary-main {
         font-size: 2em;
     }
-    
+
+    /* Arena*/
     .arena-row {
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
-        align-content: center;
     }
 
     .card {
-
         height: 20rem;
         width: 35rem;
-        border: .3rem solid #D6E3F8;
-        background-image: url(../images/paula.png);
         object-fit: contain;
     }
 
     .card-2 {
         height: 20rem;
         width: 35rem;
-        border: .3rem solid #D6E3F8;
-        background-image: url(../images/ben.png);
-        object-fit: contain;
     }
 
     .col-1-of-3-last {
-        width: calc((100% - 2 * 6rem) / 3);
-        text-align: center;
         padding: 1rem 3rem 0 0;
-    }
-
-    .title {
-        text-transform: uppercase;
-        font-size: 1.5rem;
-        color: #000;
-        background-color: #D6E3F8;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 0 1rem;
     }
 
     .video {
@@ -656,6 +639,7 @@ a {
     .header {
         border: 2px solid rgba(0, 0, 0, .5);
     }
+
     .logo {
         height: 6rem;
         width: 7rem;
@@ -709,21 +693,7 @@ a {
     }
 
     .col-1-of-3 {
-        width: calc((100% - 2 * 6rem) / 3);
-        text-align: center;
-        margin-right: 6rem;
         padding: 1rem 0 0 3rem;
-        float: left;
-    }
-
-    .clock {
-        align-items: center;
-        font-size: 2rem;
-        color: black
-    }
-
-    .day {
-        color: orangered;
     }
 
     .p-style {
@@ -737,18 +707,10 @@ a {
     }
 
     #news {
-        background-image: linear-gradient(to right bottom,
-                rgba(254, 254, 254, 0.1),
-                rgba(214, 227, 248, .2)),
-            url(../images/battle.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
         margin: 2% 3%;
     }
 
     .arena-row {
-        display: flex;
         flex-direction: column;
         justify-content: flex-start;
         align-content: flex-start;
@@ -756,51 +718,22 @@ a {
 
     .heading-forth {
         font-size: 2rem;
-        color: orange;
-        background-color: rgba(0, 0, 0, .3);
-        border-radius: 5rem;
-        text-transform: uppercase;
-        font-weight: 700;
-        letter-spacing: 2px;
         margin: 0 50px 20px 50px;
         padding: 1rem 0;
-        overflow: hidden;
     }
 
     .card {
         height: 20rem;
         width: 27rem;
-        border: .3rem solid #D6E3F8;
-        background-image: url(../images/paula.png);
-        object-fit: contain;
     }
 
     .card-2 {
         height: 20rem;
         width: 27rem;
-        border: .3rem solid #D6E3F8;
-        background-image: url(../images/ben.png);
-        object-fit: contain;
-        display: inline-block;
-        position: relative;
     }
 
     .col-1-of-3-last {
-        width: calc((100% - 2 * 6rem) / 3);
-        text-align: center;
         padding: 6rem .7rem;
-        float: left;
-    }
-
-    .title {
-        text-transform: uppercase;
-        font-size: 1.5rem;
-        color: #000;
-        background-color: #D6E3F8;
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        padding: 0 1rem;
     }
 
     .video {
@@ -809,8 +742,6 @@ a {
         margin: 8rem 1rem 6rem 0;
         margin-top: 8rem;
         margin-bottom: 6rem;
-        object-fit: contain;
-        float: left;
         overflow: scroll;
         clear: both;
     }
@@ -823,48 +754,5 @@ a {
     .quiz-button {
         margin-top: 5rem;
         margin-left: 5rem;
-    }
-
-    /* Footer */
-    .footer {
-        height: 10vh;
-        background-color: #000;
-        justify-content: center;
-        align-items: center;
-    }
-
-    #to-top {
-        height: 5vh;
-        position: relative;
-        background-color: #000;
-    }
-
-    .top {
-        font-weight: bold;
-        position: absolute;
-        top: 1rem;
-        left: 1rem;
-        padding: .4rem 1rem;
-        background: url(../images/holographic.gif);
-        border-radius: 5px;
-    }
-
-    .top:hover {
-        border-color: white;
-    }
-
-    .copyright {
-        display: block;
-    }
-
-    .right {
-        float: right;
-        color: white;
-        margin-right: 2rem;
-    }
-
-    a {
-        text-decoration: none;
-        color: #000;
     }
 }
