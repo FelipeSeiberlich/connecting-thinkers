@@ -86,10 +86,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Index | Mobile | ![screenshot](documentation/lighthouse-index-mobile.png) | Few warnings |
-| Index | Desktop | ![screenshot](documentation/lighthouse-index-desktop.png) | Some minor warnings |
-| Quiz | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Quiz | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
+| Index | Mobile | ![screenshot](documentation/lighthouse-mobile.png) | Few warnings |
+| Index | Desktop | ![screenshot](documentation/lighthouse-desktop.png) | Some minor warnings |
+| Quiz | Mobile | ![screenshot](documentation/lighthouse-quiz-mobile.png) | Some minor warnings |
+| Quiz | Desktop | ![screenshot](documentation/lighthouse-quiz-desktop.png) | Some minor warnings |
 
 ## Bugs
 
