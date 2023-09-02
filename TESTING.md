@@ -48,12 +48,12 @@ shown bellow.
 
 | File | Jigsaw URL | Screenshot | Notes |
 | --- | --- | --- | --- |
-| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=+https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/validator-live-css.png) | Pass: No Errors |
+| style.css | [Jigsaw](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffelipeseiberlich.github.io%2Fconnecting-thinkers%2Findex.html%23news&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en) | ![screenshot](documentation/validator-live-css.png) | Pass: No Errors |
 
 ## Browser Compatibility
 
 [Chrome](https://www.google.com/chrome), [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer) and [Edge](https://www.microsoft.com/edge)
-were selected to check [NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) browser compatibility.
+were selected to check ['CONNECTING THINKERS'](https://felipeseiberlich.github.io/connecting-thinkers/) browser compatibility.
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
 - [Chrome](https://www.google.com/chrome) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
