@@ -37,12 +37,12 @@ All HTML pages were validated as shown bellow.
 
 I have used the recommended [CSS Jigsaw Validator](https://jigsaw.w3.org/css-validator) to validate all of my CSS files.
 
-[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) was validated using local code and the live site pages as
+['CONNECTING THINKERS'](https://felipeseiberlich.github.io/connecting-thinkers/) was validated using local code and the live site pages as
 shown bellow.
 
 ### Local CSS file by input
 
-![Screenshot](documentation/w3c-validator-css1.png)
+![Screenshot](documentation/validator-checker-style.css.png)
 
 ### Live deployed site
 
