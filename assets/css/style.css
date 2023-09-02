@@ -18,7 +18,7 @@ html {
 }
 
 body {
-    --hue: var(var(--hue-neutral));
+    --hue: var(--hue-neutral);
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
@@ -757,7 +757,6 @@ a {
         border: .3rem solid #D6E3F8;
         background-image: url(../images/paula.png);
         object-fit: contain;
-        flex-flow: 50rem;
     }
 
     .card-2 {
