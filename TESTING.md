@@ -21,7 +21,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 ![Screenshot](documentation/validator-checker-html-local.png)
 
 #### quiz.html file
-![Screenshot](documentation/w3c-validator-home.png)
+![Screenshot](documentation/validator-checker-quiz.html-local.png)
 
 
 ### Live deployed site pages
