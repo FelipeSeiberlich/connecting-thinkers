@@ -88,7 +88,7 @@ body.wrong {
 
 .logo {
     height: 7rem;
-    width: 8rem;
+    
 }
 
 .logo:hover {
@@ -643,7 +643,7 @@ a {
 
     .logo {
         height: 6rem;
-        width: 7rem;
+
     }
 
     .logo-box {
