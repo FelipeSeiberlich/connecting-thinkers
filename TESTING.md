@@ -18,7 +18,7 @@ I have used the recommended [HTML W3C Validator](https://validator.w3.org) to va
 ### Local file by input
 
 #### index.html file
-![Screenshot](documentation/validator-checker-html-local.png)
+![Screenshot](documentation/validator-checker-index.html-local.png)
 
 #### quiz.html file
 ![Screenshot](documentation/validator-checker-quiz.html-local.png)
@@ -31,7 +31,7 @@ All HTML pages were validated as shown bellow.
 | Page | W3C URL | Screenshot | Notes |
 | --- | --- | --- | --- |
 | Index | [W3C](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fconnecting-thinkers%2F) | ![screenshot](documentation/validator-checker-index.html.png)| Pass: No Errors |
-| Quiz | [W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fneglected-things%2Fhome.html) | ![screenshot](documentation/validator-live-home.png) | Pass: No Errors |
+| Quiz | [W3C](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Ffelipeseiberlich.github.io%2Fconnecting-thinkers%2Fquiz.html) | ![screenshot](documentation/validator-checker-quiz.html.png) | Pass: No Errors |
 
 ### CSS
 
