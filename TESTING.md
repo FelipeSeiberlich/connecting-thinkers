@@ -73,27 +73,23 @@ I've tested my deployed project on the aforementioned devices to check for respo
 
 | Device | Screenshot | Notes |
 | --- | --- | --- |
-| Mobile (DevTools) | ![screenshot](documentation/responsive-mobile.png) | Works as expected |
-| Tablet (DevTools) | ![screenshot](documentation/responsive-tablet.png) | Works as expected |
-| Desktop | ![screenshot](documentation/responsive-desktop.png) | Works as expected |
-| XL Monitor | ![screenshot](documentation/responsive-xl.png) | Some scaling has minor issues |
+| Mobile (DevTools) | ![screenshot](documentation/mobile.png) | Works as expected |
+| Tablet (DevTools) | ![screenshot](documentation/tablet.png) | Works as expected |
+| Desktop | ![screenshot](documentation/desktop.png) | Works as expected |
+| XL Monitor | ![screenshot](documentation/xl-screen.png) | Some scaling has minor issues |
 
 
 ## Lighthouse Audit
 
-All [NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) pages were tested for mobile and desktop versions.
+All ['CONNECTING THINKERS'](https://felipeseiberlich.github.io/connecting-thinkers/) pages were tested for mobile and desktop versions.
 I've tested my deployed project using the Lighthouse Audit tool to check for any major issues.
 
 | Page | Size | Screenshot | Notes |
 | --- | --- | --- | --- |
-| Landing | Mobile | ![screenshot](documentation/lighthouse-index-mobile.png) | Few warnings |
-| landing | Desktop | ![screenshot](documentation/lighthouse-index-desktop.png) | Some minor warnings |
-| Home | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
-| Home | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
-| Sign In | Mobile | ![screenshot](documentation/lighthouse-signin-mobile.png) | Few warnings |
-| Sign in | Desktop | ![screenshot](documentation/lighthouse-signin-desktop.png) | Some minor warnings  | 
-| Sign Up | Mobile | ![screenshot](documentation/lighthouse-signup-mobile.png) | Slow response time due to large images |
-| Sign Up | Desktop | ![screenshot](documentation/lighthouse-signup-desktop.png) | Some minor warnings |
+| Index | Mobile | ![screenshot](documentation/lighthouse-index-mobile.png) | Few warnings |
+| Index | Desktop | ![screenshot](documentation/lighthouse-index-desktop.png) | Some minor warnings |
+| Quiz | Mobile | ![screenshot](documentation/lighthouse-home-mobile.png) | Some minor warnings |
+| Quiz | Desktop | ![screenshot](documentation/lighthouse-home-desktop.png) | Some minor warnings |
 
 ## Bugs
 
