@@ -289,7 +289,7 @@ body.wrong {
 }
 
 .day {
-    color: orangered;
+    color: purple;
     overflow: visible;
 }
 
@@ -439,7 +439,8 @@ body.wrong {
     top: 1rem;
     left: 1rem;
     padding: .4rem 1rem;
-    background: url(../images/holographic.gif);
+    color: black;
+    background-color: #D6E3F8;
     border-radius: 5px;
 }
 
@@ -526,14 +527,14 @@ a {
     font-weight: bold;
     margin: 2.5rem;
     padding: 1rem 5rem;
-    background: url(../images/holographic.gif);
+    background-color: #D6E3F8;
 }
 
 .next-btn {
     font-size: 4rem;
     font-weight: bold;
     padding: 1rem 3rem;
-    background: url(../images/holographic.gif);
+    background-color: #D6E3F8;
 }
 
 .hide {
