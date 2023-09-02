@@ -566,6 +566,14 @@ a {
 /* About/Steps section */
 @media screen and (max-width: 1210px) {
 
+    .text-box {
+        top: 55%;
+    }
+    
+    .heading-primary-main {
+        font-size: 2em;
+    }
+
     .quiz-button {
         margin-top: 5rem;
         margin-left: 45rem;
@@ -575,6 +583,15 @@ a {
 /* For medium screens sizes from 950px wide and down */
 /* About/Steps section */
 @media screen and (max-width: 1150px) {
+    
+    .text-box {
+        top: 60%;
+    }
+    
+    .heading-primary-main {
+        font-size: 2em;
+    }
+    
     .arena-row {
         display: flex;
         flex-direction: column;
@@ -636,6 +653,9 @@ a {
 /* Index page */
 @media screen and (max-width: 730px) {
 
+    .header {
+        border: 2px solid rgba(0, 0, 0, .5);
+    }
     .logo {
         height: 6rem;
         width: 7rem;
@@ -651,7 +671,7 @@ a {
     }
 
     .heading-primary-main {
-        font-size: 1.3em;
+        font-size: 1.5em;
         letter-spacing: 1rem;
     }
 
@@ -670,7 +690,8 @@ a {
     .heading-secondary {
         background-color: rgba(255, 255, 255, .9);
         bottom: 4.5rem;
-        right: 6rem;
+        right: 4rem;
+        font-size: 2.5rem;
     }
 
     /* Second section - History */
