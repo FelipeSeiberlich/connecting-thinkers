@@ -56,26 +56,14 @@ shown bellow.
 were selected to check ['CONNECTING THINKERS'](https://felipeseiberlich.github.io/connecting-thinkers/) browser compatibility.
 
 I've tested my deployed project on multiple browsers to check for compatibility issues.
-- [Chrome](https://www.google.com/chrome) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
+- [Chrome](https://www.google.com/chrome) presented minor CSS differences in the overall page.
 - [Firefox (Developer Edition)](https://www.mozilla.org/firefox/developer) works as expected.
-- [Edge](https://www.microsoft.com/edge) presented minor CSS differences in the social media icons size as at Homes' first section image viewport display.
-- [Safari](https://www.apple.com/safari/) presented some CSS differences on the background video (Index page), where a play button is displayed, and on the
-sign-in page where the login button is rounded.
-
-Please, refer to screenshots provided for further clarification.
-
-| Browser | Screenshot | Notes |
-| --- | --- | --- |
-| Chrome | ![screenshot](documentation/chrome.png) | Minor CSS differences |
-| Firefox | ![screenshot](documentation/firefox.png) | Works as expected |
-| Edge | ![screenshot](documentation/edge.png) | Minor CSS differences |
-| Safari | ![screenshot](documentation/safari.png) | Minor CSS differences |
-| Safari | ![screenshot](documentation/safari-play-button.png) | CSS differences - play button displayed |
-| Safari | ![screenshot](documentation/safari-style-button.png) | CSS differences - round button |
+- [Edge](https://www.microsoft.com/edge) presented minor CSS differences in the viewport, a horizontal scroll bar was added .
+- [Safari](https://www.apple.com/safari/) presented some CSS differences on the (Index page and Quiz page), where a button is displayed rounded.
 
 ## Responsiveness
 
-[NEGLECTED THINGS'](https://felipeseiberlich.github.io/neglected-things/) live/deployed site was meticulously tested for the following device types:
+['CONNECTING THINKERS'](https://felipeseiberlich.github.io/connecting-thinkers/) live/deployed site was meticulously tested for the following device types:
 - Mobile
 - Tablet
 - Desktop

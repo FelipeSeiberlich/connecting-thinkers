@@ -636,8 +636,8 @@ a {
 @media screen and (max-width: 730px) {
 
     .logo {
-        height: 5rem;
-        width: 6rem;
+        height: 6rem;
+        width: 7rem;
     }
 
     .logo-box {
@@ -646,7 +646,7 @@ a {
 
     .logo-text-first,
     .logo-text-second {
-        font-size: 1.5em;
+        font-size: 2em;
     }
 
     .heading-primary-main {
